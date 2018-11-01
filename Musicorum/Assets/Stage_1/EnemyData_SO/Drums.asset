@@ -9,8 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 390dabca5a113694bbbb87006c3ec345, type: 3}
-  m_Name: BossFightSong
+  m_Name: Drums
   m_EditorClassIdentifier: 
-  Name: BossFight
-  audioClip: {fileID: 8300000, guid: 6b036a71ed52c55478cf0e235ff19adb, type: 3}
+  Name: Base_Drm
+  Bpm: 0
+  audioClip: {fileID: 8300000, guid: 23ad92158efcfde478467e572e7c3b67, type: 3}
   Notes: []
