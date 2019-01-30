@@ -4,4 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/Boot.unity
+    guid: 4cc56a7977b48b2488c1956f73fb00aa
+  - enabled: 1
+    path: Assets/DialogueSystem/DialogueScenes/MainMenuScene.unity
+    guid: a7162a80cf5aa194cafd66e6190aa84b
+  - enabled: 1
+    path: Assets/DialogueSystem/DialogueScenes/DialogueSystem.unity
+    guid: eab2dbbe0cb75fa479dc10c141919f53
+  - enabled: 1
+    path: Assets/Scene/RythmMaster.unity
+    guid: cf6de5d7accd25641bef2d8b0baaf3bc
+  - enabled: 1
+    path: Assets/Stage_1/Scene/Stage1_Forest_Scene.unity
+    guid: c048a2434ab675843a3f491d0aec4136

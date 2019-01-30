@@ -5,7 +5,6 @@ public class SongManager : MonoBehaviour
 {
     float songPosition, songPosInBeats, secPerBeat, dsptimesong;
     public int nextIndex = 0;
-    
     float beatsShownInAdvance;
     public SongStorage NotesPosition;
     public AudioSource localAudioSource;
@@ -13,13 +12,12 @@ public class SongManager : MonoBehaviour
     [SerializeField] Transform[] ObjectPosition;
     void Start()
     {
-        beatsShownInAdvance = 0.2f;
         secPerBeat = 60f / NotesPosition.Bpm;
         dsptimesong = (float)AudioSettings.dspTime;
         localAudioSource.clip = NotesPosition.audioClip;
         localAudioSource.Play();
     }
-    private void FixedUpdate()
+    void Update()
     {
         songPosition = (float)(AudioSettings.dspTime - dsptimesong);
         songPosInBeats = songPosition / secPerBeat;
@@ -29,6 +27,5 @@ public class SongManager : MonoBehaviour
             Instantiate(prefabobj, ObjectPosition[randomize].position, ObjectPosition[randomize].rotation);
             nextIndex++;
         }
-
     }
 }
