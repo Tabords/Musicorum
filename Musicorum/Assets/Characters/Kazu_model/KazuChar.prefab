@@ -88,6 +88,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1072877941202938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4144696474051096}
+  - component: {fileID: 135555441035334484}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1101821633933282
 GameObject:
   m_ObjectHideFlags: 1
@@ -308,6 +324,7 @@ GameObject:
   - component: {fileID: 4970625184350176}
   - component: {fileID: 114058802349645710}
   - component: {fileID: 143747204302939554}
+  - component: {fileID: 114899294935426760}
   m_Layer: 0
   m_Name: KazuChar
   m_TagString: Player
@@ -967,6 +984,19 @@ Transform:
   m_Father: {fileID: 4432675688115832}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4144696474051096
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072877941202938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4970625184350176}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4172557786339410
 Transform:
   m_ObjectHideFlags: 1
@@ -1092,7 +1122,7 @@ Transform:
   - {fileID: 4088167818302152}
   - {fileID: 4611845475152810}
   m_Father: {fileID: 4970625184350176}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4335180631094590
 Transform:
@@ -1668,6 +1698,7 @@ Transform:
   m_LocalPosition: {x: -26.159218, y: 1.62, z: -35.37441}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4144696474051096}
   - {fileID: 4318711991485892}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1748,6 +1779,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterAnimator: {fileID: 95148499296430390}
+--- !u!114 &114899294935426760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412206274150684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272cf4e069d7e4c478ddd96e5e2b2b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: 0
+--- !u!135 &135555441035334484
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072877941202938}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.95
+  m_Center: {x: 0, y: 0.2, z: 0}
 --- !u!137 &137950115164922762
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

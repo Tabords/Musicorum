@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour
                 WhenPressAny();
             }
         }
+        
     }
 
     public void WhenPressAny()

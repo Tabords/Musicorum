@@ -123,21 +123,13 @@ GameObject:
   - component: {fileID: 78508392}
   - component: {fileID: 78508391}
   - component: {fileID: 78508390}
-  - component: {fileID: 78508389}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &78508389
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 78508388}
-  m_Enabled: 1
+  m_IsActive: 0
 --- !u!124 &78508390
 Behaviour:
   m_ObjectHideFlags: 0
@@ -586,6 +578,8 @@ MonoBehaviour:
   - {fileID: 818116841}
   - {fileID: 1385243978}
   - {fileID: 773881808}
+  PrefabEnemy:
+  - {fileID: 1561240520781892, guid: 874cddd14669ff54990f1494f9207f4a, type: 2}
 --- !u!1 &1729716734
 GameObject:
   m_ObjectHideFlags: 0

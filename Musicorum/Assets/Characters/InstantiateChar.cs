@@ -15,6 +15,7 @@ public class InstantiateChar : MonoBehaviour {
 
     private void Start()
     {
+        
         charSelect = GameObject.FindObjectOfType<CharSelect>();
         if (charSelect.Charenum == choices.Kazu)
         {
@@ -50,4 +51,9 @@ public class InstantiateChar : MonoBehaviour {
         }
     }
 
+    private void OnDisable()
+    {
+        Destroy(gameObject);
+        Destroy(Character);
+    }
 }
