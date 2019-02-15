@@ -11,11 +11,21 @@ public class InstantiateChar : MonoBehaviour {
     GameObject Character;
 
     public delegate void CharactedWasSelected();
-    public event CharactedWasSelected Charselec;
 
     private void Start()
     {
-        
+        CharInstantiate();
+    }
+
+
+    private void OnDisable()
+    {
+        Destroy(gameObject);
+        Destroy(Character);
+    }
+
+    public void CharInstantiate()
+    {
         charSelect = GameObject.FindObjectOfType<CharSelect>();
         if (charSelect.Charenum == choices.Kazu)
         {
@@ -23,7 +33,6 @@ public class InstantiateChar : MonoBehaviour {
             Character.name = "Kazu";
             Character.tag = "Player";
             Debug.Log("Kazu Selected");
-            OnKazu();
         }
         if (charSelect.Charenum == choices.sophia)
         {
@@ -31,29 +40,7 @@ public class InstantiateChar : MonoBehaviour {
             Character.name = "Sophia";
             Character.tag = "Player";
             Debug.Log("sophia Selected");
-            OnSophia();
         }
     }
 
-    void OnKazu()
-    {
-        if (Charselec != null)
-        {
-            Charselec();
-        }
-    }
-
-    void OnSophia()
-    {
-        if (Charselec != null)
-        {
-            Charselec();
-        }
-    }
-
-    private void OnDisable()
-    {
-        Destroy(gameObject);
-        Destroy(Character);
-    }
 }

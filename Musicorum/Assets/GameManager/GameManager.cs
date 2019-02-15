@@ -2,58 +2,59 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] GameObject dummycam;
-    [SerializeField] GameObject canvas;
+    EnemyManager enmyManager;
+
+    [SerializeField] Camera DummyCamera;
     [HideInInspector] public string LevelName = string.Empty;
-    bool isAnyPress;
     public static GameManager Instance;
-    #region Singleton
-    public void Awake()
+    private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-           
-        }
-        else
-        {
-            Destroy(gameObject);
+            DontDestroyOnLoad(gameObject);
         }
     }
-    #endregion
-    void Start()
+     void Update()
     {
-        isAnyPress = false;
+        cheatSheet();
     }
+
     public void LoadLevelAsync(string LevelName)
+    {
+        AsyncOperation ao = SceneManager.LoadSceneAsync(LevelName);
+        DummyCamera.gameObject.SetActive(false);
+    }
+    public void LoadLevelAdditive(string LevelName)
     {
         AsyncOperation ao = SceneManager.LoadSceneAsync(LevelName, LoadSceneMode.Additive);
     }
-    public void UnLoadLevel(string LevelName)
+
+    public void LoadCombatSystem()
     {
-        AsyncOperation ao = SceneManager.UnloadSceneAsync(LevelName);
-    }
-    private void Update()
-    {
-        int loadedScene = SceneManager.sceneCountInBuildSettings;
-        if (!isAnyPress)
-        {
-            if (Input.anyKeyDown)
-            {
-                WhenPressAny();
-            }
-        }
-        
+        AsyncOperation ab = SceneManager.LoadSceneAsync("CombatScene", LoadSceneMode.Additive);
     }
 
-    public void WhenPressAny()
+    public void LoadRythmSystem()
     {
-        LoadLevelAsync("MainMenuScene");
-        dummycam.SetActive(false);
-        canvas.SetActive(false);
-        isAnyPress = true;
+        AsyncOperation ao = SceneManager.LoadSceneAsync("RythmUi", LoadSceneMode.Additive);
     }
+
+
+    void cheatSheet()
+    {
+        enmyManager = FindObjectOfType<EnemyManager>();
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            enmyManager.enemy = Enemy.goblin;
+            AsyncOperation ab = SceneManager.LoadSceneAsync("BattleStage", LoadSceneMode.Additive);
+            LoadCombatSystem();
+        }
+    }
+
+
 }

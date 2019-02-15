@@ -23,8 +23,11 @@ public class PlayerController : MonoBehaviour {
 	CharacterController controller;
 
 	void Start () {
+
 		cameraT = Camera.main.transform;
-		controller = GetComponent<CharacterController> ();
+
+
+        controller = GetComponent<CharacterController> ();
 	}
 
 	void Update () {
@@ -61,9 +64,10 @@ public class PlayerController : MonoBehaviour {
 
 	}
 	float GetModifiedSmoothTime(float smoothTime) {
-		if (controller.isGrounded) {
-			return smoothTime;
-		}
+        if (controller.isGrounded)
+        {
+            return smoothTime;
+        }
 
 		if (airControlPercent == 0) {
 			return float.MaxValue;

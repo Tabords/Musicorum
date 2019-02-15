@@ -1,49 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum Enemy { none, goblin, troll, wolf } // proceeds later 
 public class PlayerTriggerScript : MonoBehaviour
 {
-    public static Enemy enemy;
-    public delegate void BattleSceneEnemy();
-    public static event BattleSceneEnemy battleScene;
+    EnemyManager Enemyselected;
+
     private void OnTriggerEnter(Collider other)
     {
+         Enemyselected = GameObject.FindObjectOfType<EnemyManager>();
         if (other.tag == "Goblin")
         {
-            Debug.Log(other.gameObject + "collides to player");
-            enemy = Enemy.goblin;
-            if (battleScene != null)
-            {
-                Debug.Log("collide with goblin");
-                GameManager.Instance.UnLoadLevel("Stage1_Forest_Scene");
-                //save scene
-                //loading screen
-                GameManager.Instance.LoadLevelAsync("BattleStage");
-                battleScene();
-            }
+            Enemyselected.enemy = Enemy.goblin;
+            GameManager.Instance.LoadLevelAsync("BattleStage");
+            LoadRythm();
         }
-        else if (other.tag == "Troll")
+        else if (other.gameObject.tag == "Troll")
         {
-            enemy = Enemy.troll;
-            if (battleScene != null)
-            {
-                GotoScene();
-            }
+            Enemyselected.enemy = Enemy.troll;
+            GameManager.Instance.LoadLevelAsync("BattleStage");
+            LoadRythm();
         }
-        else if (other.tag == "Wolf")
+        else if (other.gameObject.tag == "Wolf")
         {
-            enemy = Enemy.wolf;
-            if (battleScene != null)
-            {
-                GotoScene();
-            }
+            Enemyselected.enemy = Enemy.wolf;
+            GameManager.Instance.LoadLevelAsync("BattleStage");
+            LoadRythm();
         }
+
     }
 
-    void GotoScene()
+    void LoadRythm()
     {
-        
-
+        GameManager.Instance.LoadCombatSystem();
     }
 }

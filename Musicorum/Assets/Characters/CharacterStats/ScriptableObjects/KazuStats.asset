@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdc30fe9e518f24cbc09af938caddf8, type: 3}
+  m_Name: KazuStats
+  m_EditorClassIdentifier: 
+  setManually: 0
+  saveDataOnClose: 1
+  maxHealth: 100
+  currentHealth: 100
+  baseDamage: 10
+  currentDamage: 10
+  baseResistance: 0
+  currentResistance: 0
+  baseAgility: 30
+  currentAgility: 30
+  baseExperience: 100
+  CurrentExperience: 0
+  charLevel: 1
+  charlevelUps:
+  - MaxHealth: 150
+    baseDamage: 20
+    baseAgility: 20
+    baseResistance: 10
+    baseExperience: 300
+  - MaxHealth: 150
+    baseDamage: 30
+    baseAgility: 30
+    baseResistance: 20
+    baseExperience: 450
+  - MaxHealth: 150
+    baseDamage: 20
+    baseAgility: 30
+    baseResistance: 30
+    baseExperience: 700

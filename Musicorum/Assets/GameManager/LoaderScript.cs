@@ -3,30 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
-public class SceneManagement : MonoBehaviour
-{
+public class LoaderScript : MonoBehaviour {
 
     public GameObject LoadingScreen;
     public Slider slider;
 
-    public static SceneManagement instance;
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
+
     public void LoadLevelAsync(string LevelName)
     {
-        StartCoroutine(LoadAsynchrinously(LevelName));
+        LoadAsynchrinously(LevelName);
     }
-    public void LoadLevelAdditive(string SceneName)
-    {
-        GameManager.Instance.LoadLevelAsync(SceneName);
-    }
+
     IEnumerator LoadAsynchrinously(string LevelName)
     {
         AsyncOperation ao = SceneManager.LoadSceneAsync(LevelName);
@@ -39,5 +26,5 @@ public class SceneManagement : MonoBehaviour
             yield return null;
         }
     }
-}
 
+}

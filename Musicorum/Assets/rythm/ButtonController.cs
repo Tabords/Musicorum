@@ -29,15 +29,15 @@ public class ButtonController : MonoBehaviour {
 	}
     private void FixedUpdate()
     {
-       RaycastHit2D raycastHit2D = Physics2D.Raycast(transform.position, Vector2.up,2f);
-        if (raycastHit2D.collider.tag == "BlockDrop")
-        {
-            if (DestroyImage)
-            {
-                Debug.Log("Succ");
-                Destroy(raycastHit2D.collider.gameObject);
-            }
-        }
+       //RaycastHit2D raycastHit2D = Physics2D.Raycast(transform.position, Vector2.up,2f);
+       // if (raycastHit2D.collider.tag == "BlockDrop")
+       // {
+       //     if (DestroyImage)
+       //     {
+       //         Debug.Log("Succ");
+       //         Destroy(raycastHit2D.collider.gameObject);
+       //     }
+       // }
         
     }
 

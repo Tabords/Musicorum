@@ -5,29 +5,53 @@ using UnityEngine;
 public class BattleSceneManager : MonoBehaviour
 {
 
+    CharSelect charSelect;
+    EnemyManager enemy;
     [SerializeField] Transform[] Positions;
     [SerializeField] GameObject[] PrefabEnemy;
-    private void Start()
+    [SerializeField] GameObject[] CharacterPrefab;
+
+    GameObject ChPlayer, ChEnemy;
+    private void Awake()
     {
-        PlayerTriggerScript.battleScene += InstantiateEnemy;
-
-
+        instantiateCharacter();
+        InstantiateEnemy();
     }
     public void InstantiateEnemy()
     {
-        if (PlayerTriggerScript.enemy == Enemy.goblin)
-        {
-            Debug.Log(PlayerTriggerScript.enemy);
-            Instantiate(PrefabEnemy[0], Positions[1].position, Positions[1].rotation);
+        enemy = GameObject.FindObjectOfType<EnemyManager>();
+        if(enemy.enemy == Enemy.goblin) {
+            ChEnemy = Instantiate(PrefabEnemy[0], Positions[1].position, Positions[1].rotation);
         }
-        else if (PlayerTriggerScript.enemy == Enemy.troll)
+        if (enemy.enemy == Enemy.troll)
         {
-            Instantiate(PrefabEnemy[1], Positions[1].position, Positions[1].rotation);
+            ChEnemy = Instantiate(PrefabEnemy[1], Positions[1].position, Positions[1].rotation);
         }
-        else if (PlayerTriggerScript.enemy == Enemy.wolf)
+        else if (enemy.enemy == Enemy.wolf)
         {
-            Instantiate(PrefabEnemy[2], Positions[1].position, Positions[1].rotation);
+            ChEnemy = Instantiate(PrefabEnemy[2], Positions[1].position, Positions[1].rotation);
         }
-        PlayerTriggerScript.battleScene -= InstantiateEnemy;
     }
+    public void instantiateCharacter()
+    {
+        charSelect = GameObject.FindObjectOfType<CharSelect>();
+        if (charSelect.Charenum == choices.Kazu)
+        {
+            ChPlayer =  Instantiate(CharacterPrefab[0], Positions[0].position, Positions[0].rotation);
+           
+        }
+        else if (charSelect.Charenum == choices.sophia)
+        {
+            ChPlayer = Instantiate(CharacterPrefab[1], Positions[0].position, Positions[0].rotation);
+        }
+
+    }
+    private void OnDestroy()
+    {
+        Destroy(ChPlayer);
+        Destroy(ChEnemy);
+    }
+
+  
+
 }

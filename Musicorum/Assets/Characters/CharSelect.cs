@@ -5,11 +5,14 @@ using UnityEngine;
 public enum choices { none,Kazu, sophia }
 public class CharSelect : MonoBehaviour {
 
+
+
+    public choices Charenum;
+
     private void Start()
     {
         DontDestroyOnLoad(gameObject);
     }
-    public choices Charenum;
     public void KazuSelected()
     {
             Charenum = choices.Kazu;
@@ -18,5 +21,4 @@ public class CharSelect : MonoBehaviour {
     {
             Charenum = choices.sophia;
     }
-
 }
