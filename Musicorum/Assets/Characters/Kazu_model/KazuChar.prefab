@@ -327,6 +327,7 @@ GameObject:
   - component: {fileID: 143747204302939554}
   - component: {fileID: 114703203756855212}
   - component: {fileID: 114179981639942266}
+  - component: {fileID: 114195362002147160}
   m_Layer: 0
   m_Name: KazuChar
   m_TagString: Player
@@ -1780,7 +1781,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272cf4e069d7e4c478ddd96e5e2b2b2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterStats: {fileID: 114703203756855212}
+--- !u!114 &114195362002147160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412206274150684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4102e04afcc3a4a4097fee0f5de29f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPosition: {fileID: 11400000, guid: 581a56bc379051c42980df52e7dd0a13, type: 2}
 --- !u!114 &114391553986591030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1804,7 +1816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272cf4e069d7e4c478ddd96e5e2b2b2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterStats: {fileID: 0}
 --- !u!114 &114703203756855212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1837,12 +1848,12 @@ SkinnedMeshRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1616955734411200}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: 1db829a8d7813a74bb9a30794d2c49ba, type: 2}
   - {fileID: 2100000, guid: 0807361cb82e8ff419a256509a33008e, type: 2}

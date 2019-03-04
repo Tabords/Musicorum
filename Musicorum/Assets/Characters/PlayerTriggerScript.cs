@@ -4,12 +4,14 @@ using UnityEngine;
 public class PlayerTriggerScript : MonoBehaviour
 {
     EnemyManager Enemyselected;
-
+    SavingPlayerPos savingPlayerPos;
     private void OnTriggerEnter(Collider other)
     {
-         Enemyselected = GameObject.FindObjectOfType<EnemyManager>();
+        savingPlayerPos = GameObject.FindObjectOfType<SavingPlayerPos>();
+        Enemyselected = GameObject.FindObjectOfType<EnemyManager>();
         if (other.tag == "Goblin")
         {
+            Destroy(other.gameObject);
             Enemyselected.enemy = Enemy.goblin;
             GameManager.Instance.LoadLevelAsync("BattleStage");
             LoadRythm();

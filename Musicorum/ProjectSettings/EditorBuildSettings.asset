@@ -20,3 +20,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Stage_1/Scene/Stage1_Forest_Scene.unity
     guid: c048a2434ab675843a3f491d0aec4136
+  - enabled: 1
+    path: Assets/Scene/InventoryScene.unity
+    guid: 4bb85b85915c2bc4ea8ebd415975b599
+  - enabled: 1
+    path: Assets/Scene/BattleStage.unity
+    guid: 16ec2b1f2d3aa974aaa4eee7018af2a8
+  - enabled: 1
+    path: Assets/Scene/CombatScene.unity
+    guid: e28b5cdf763ca27409fa3358698ad714
+  - enabled: 1
+    path: Assets/rythm/RythmUi.unity
+    guid: 814eba0a6242bcd4a92d7ca6918a9af7
+  - enabled: 1
+    path: Assets/MainMenu/ScreenMenu.unity
+    guid: 9efb0ed1bf833944aa823604b6c4d170
+  - enabled: 1
+    path: Assets/DesUI.unity
+    guid: 508d2d78b6101004594e5b03b3ceb147
+  - enabled: 1
+    path: Assets/Scene/PauseMenu.unity
+    guid: 067dbe807fd0fa74ea2a8c377cd08d9d

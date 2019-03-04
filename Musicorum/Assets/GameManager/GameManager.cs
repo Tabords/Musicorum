@@ -7,10 +7,11 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     EnemyManager enmyManager;
-
-    [SerializeField] Camera DummyCamera;
+    Quest quest;
     [HideInInspector] public string LevelName = string.Empty;
     public static GameManager Instance;
+
+    public bool isPauseLoaded, isInventoryLoaded,isQuestLoaded;
     private void Awake()
     {
         if (Instance == null)
@@ -18,17 +19,43 @@ public class GameManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
+        PlayerPrefs.DeleteAll();
     }
-     void Update()
+    private void Start()
     {
-        cheatSheet();
+        isPauseLoaded = false;
+        isInventoryLoaded = false;
+        isQuestLoaded = false;
     }
 
+    private void Update()
+    {
+        Debug.Log(isInventoryLoaded);
+        if (Input.GetKeyDown(KeyCode.Escape)&& !isPauseLoaded)
+        {
+            LoadLevelAdditive("PauseMenu");
+            isPauseLoaded = !isPauseLoaded;
+        }
+        if (Input.GetKeyDown(KeyCode.I) && !isInventoryLoaded)
+        {
+            isInventoryLoaded = !isInventoryLoaded;
+            LoadLevelAdditive("InventoryScene");
+        }
+        if (Input.GetKeyDown(KeyCode.O) && !isQuestLoaded)
+        {
+            isQuestLoaded = !isQuestLoaded;
+            LoadLevelAdditive("QuestScene");
+        }
+    }
     public void LoadLevelAsync(string LevelName)
     {
         AsyncOperation ao = SceneManager.LoadSceneAsync(LevelName);
-        DummyCamera.gameObject.SetActive(false);
     }
+    public void UnloadLevel(string LevelName)
+    {
+        SceneManager.UnloadSceneAsync(LevelName);
+    }
+
     public void LoadLevelAdditive(string LevelName)
     {
         AsyncOperation ao = SceneManager.LoadSceneAsync(LevelName, LoadSceneMode.Additive);
@@ -45,16 +72,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    void cheatSheet()
-    {
-        enmyManager = FindObjectOfType<EnemyManager>();
-        if (Input.GetKeyDown(KeyCode.F2))
-        {
-            enmyManager.enemy = Enemy.goblin;
-            AsyncOperation ab = SceneManager.LoadSceneAsync("BattleStage", LoadSceneMode.Additive);
-            LoadCombatSystem();
-        }
-    }
+
 
 
 }

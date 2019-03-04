@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4312148965528442}
   - component: {fileID: 33583426731445284}
   - component: {fileID: 23415332728202218}
-  - component: {fileID: 95352032754009636}
   m_Layer: 0
   m_Name: Wall2_asset
   m_TagString: Untagged
@@ -49,12 +48,12 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1633259332480892}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: 11d1c3a27d8433c4aa468e7d468ea47a, type: 2}
   m_StaticBatchInfo:
@@ -83,20 +82,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1633259332480892}
   m_Mesh: {fileID: 4300000, guid: 64f98ddfba7cf05429a118c3040a92c8, type: 3}
---- !u!95 &95352032754009636
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1633259332480892}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 64f98ddfba7cf05429a118c3040a92c8, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1

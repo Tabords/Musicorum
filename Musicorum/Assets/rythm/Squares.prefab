@@ -22,34 +22,13 @@ GameObject:
   - component: {fileID: 61177798683410032}
   - component: {fileID: 222568311897466574}
   - component: {fileID: 114244609633488014}
-  - component: {fileID: 50200708416054690}
   m_Layer: 0
   m_Name: Squares
-  m_TagString: BlockDrop
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &50200708416054690
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1440139944906188}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &61177798683410032
 BoxCollider2D:
   m_ObjectHideFlags: 1

@@ -5,6 +5,7 @@ using UnityEngine;
 public class InstantiateChar : MonoBehaviour {
 
    private CharSelect charSelect;
+    SavingPlayerPos savingPlayerPos;
 
     [SerializeField] GameObject[] CharacterPrefabs;
     [SerializeField] Transform[] Positions;
@@ -16,7 +17,6 @@ public class InstantiateChar : MonoBehaviour {
     {
         CharInstantiate();
     }
-
 
     private void OnDisable()
     {

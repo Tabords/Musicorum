@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: b68a968fc31337948aa71400eadc6576
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Text_Option
+    21300002: UI_Version2_1
+    21300004: UI_Version2_2
+    21300006: UI_Version2_3
+    21300008: UI_NewGame
+    21300010: UI_Resume
+    21300012: UI_Version2_6
+    21300014: UI_Version2_7
+    21300016: UI_Version2_8
+    21300018: UI_Version2_9
+    21300020: UI_Version2_10
+    21300022: UI_Version2_11
+    21300024: UI_Version2_12
+    21300026: UI_Version2_13
+    21300028: UI_Version2_14
+    21300030: UI_Version2_15
+    21300032: UI_Version2_16
+    21300034: UI_Version2_17
+    21300036: UI_Version2_18
+    21300038: UI_Load
+    21300040: UI_Return
+    21300042: UI_Version2_21
+    21300044: UI_Version2_22
+    21300046: UI_Version2_23
+    21300048: UI_Version2_24
+    21300050: UI_Version2_25
+    21300052: UI_Version2_26
+    21300054: UI_Version2_27
+    21300056: UI_Version2_28
+    21300058: UI_Version2_29
+    21300060: UI_Version2_30
+    21300062: UI_Version2_31
+    21300064: UI_Option
+    21300066: UI_Apple
+    21300068: Slider_Outline
+    21300070: Slider_Button
+    21300072: Slider_Base
+    21300074: UI_Quit
+    21300076: Btn_IntKazu_Attack
+    21300078: Btn_IntSophia_Attack
+    21300080: UI_Template1
+    21300082: UI_Version2_41
+    21300084: UI_Potion
+    21300086: UI_Flee
+    21300088: Icon_Strings
+    21300090: Icon_Stick1
+    21300092: Icon_Stick2
+    21300094: Icon_Potion
+    21300096: Icon_QuestionMark
+    21300098: UI_Template2
+    21300100: Text_Menu
+    21300102: Text_Audio
+    21300104: UI_Version2_50
+    21300106: Text_Brightness
+    21300108: Btn_IntKazu_Defend
+    21300110: Btn_IntSophia_Defend
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_NewGame
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2765
+        width: 591
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Resume
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2765
+        width: 593
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Load
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2581
+        width: 591
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Return
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2566
+        width: 593
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Option
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2393
+        width: 591
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Apple
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2376
+        width: 593
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slider_Outline
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 2470
+        width: 738
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slider_Button
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 2465
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slider_Base
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 2426
+        width: 733
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Quit
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2189
+        width: 591
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Btn_IntKazu_Attack
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 2017
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Btn_IntSophia_Attack
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2021
+        width: 280
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Template1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1004
+        width: 1249
+        height: 1163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Potion
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1313
+        width: 281
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Flee
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1313
+        width: 281
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icon_Strings
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1015
+        width: 215
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icon_Stick1
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 991
+        width: 48
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icon_Stick2
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 991
+        width: 49
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icon_Potion
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1006
+        width: 109
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icon_QuestionMark
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 984
+        width: 170
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Template2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 832
+        height: 984
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_Menu
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2885
+        width: 224
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_Audio
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 2712
+        width: 293
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Version2_50
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2708
+        width: 244
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_Brightness
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2588
+        width: 372
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Btn_IntKazu_Defend
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1650
+        width: 340
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Btn_IntSophia_Defend
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1663
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_Option
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2786
+        width: 245
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

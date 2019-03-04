@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abec092973df242ce926eb6586c0a3a9, type: 3}
+  m_Name: New Song Info 1
+  m_EditorClassIdentifier: 
+  song: {fileID: 8300000, guid: ab1a8f2223fccc14f89167f8de9afa74, type: 3}
+  songID: 0
+  collection: 0
+  songNum: 0
+  easyDifficulty: 0
+  songTitle: 
+  composer: 
+  arranger: 
+  songCover: {fileID: 0}
+  defaultBeats: []
+  songOffset: 0
+  bpm: 120
+  tracks:
+  - notes:
+    - note: 0.5
+      times: 0
+    - note: 2
+      times: 0
+    - note: 2.49788
+      times: 0
+    - note: 3.99705
+      times: 0
+    - note: 4.49623
+      times: 0
+    - note: 5.99527
+      times: 0
+    - note: 6.49452
+      times: 0
+    - note: 6.49452
+      times: 0
+    - note: 7.99286
+      times: 0
+    - note: 8.24113
+      times: 0
+    - note: 8.49288
+      times: 0
+    - note: 9.24223
+      times: 0
+    - note: 9.9904
+      times: 0
+    - note: 10.24173
+      times: 0
+    - note: 10.49113
+      times: 0
+    - note: 11.2406
+      times: 0
+    - note: 11.99038
+      times: 0
+    - note: 12.23881
+      times: 0
+    - note: 12.48919
+      times: 0
+    - note: 13.23885
+      times: 0
+    - note: 13.98935
+      times: 0
+    - note: 14.2385
+      times: 0
+    - note: 14.48787
+      times: 0
+    - note: 15.23729
+      times: 0
+    - note: 15.98612
+      times: 0
+    - note: 16.23579
+      times: 0
+    - note: 16.48623
+      times: 0
+    - note: 17.2356
+      times: 0
+    - note: 17.98525
+      times: 0
+    - note: 18.23454
+      times: 0
+    - note: 18.48454
+      times: 0
+    - note: 19.23394
+      times: 0
+    - note: 19.98396
+      times: 0
+    - note: 20.23344
+      times: 0
+    - note: 20.48292
+      times: 0
+    - note: 21.23227
+      times: 0
+    - note: 21.38131
+      times: 0
+    - note: 22.23214
+      times: 0
+    - note: 22.48123
+      times: 0
+    - note: 23.23063
+      times: 0
+    - note: 23.98067
+      times: 0
+    - note: 24.23048
+      times: 0
+    - note: 24.47992
+      times: 0
+    - note: 24.7294
+      times: 0
+    - note: 24.9791
+      times: 0
+    - note: 25.22908
+      times: 0
+    - note: 25.35396
+      times: 0
+    - note: 25.4789
+      times: 0
+    - note: 25.60375
+      times: 0
+    - note: 25.72867
+      times: 0
+    - note: 25.85358
+      times: 0
+    - note: 25.97867
+      times: 0
+    - note: 26.22867
+      times: 0
+    - note: 26.478
+      times: 0
+    - note: 26.72812
+      times: 0
+    - note: 26.97748
+      times: 0
+    - note: 27.22742
+      times: 0
+    - note: 27.35227
+      times: 0
+    - note: 27.47725
+      times: 0
+    - note: 27.6021
+      times: 0
+    - note: 27.72685
+      times: 0
+    - note: 27.97676
+      times: 0
+    - note: 28.22683
+      times: 0
+    - note: 28.47662
+      times: 0
+    - note: 28.72633
+      times: 0
+    - note: 28.97579
+      times: 0
+    - note: 29.22579
+      times: 0
+    - note: 29.35062
+      times: 0
+    - note: 29.4755
+      times: 0
+    - note: 29.60044
+      times: 0
+    - note: 29.72535
+      times: 0
+    - note: 29.85021
+      times: 0
+    - note: 29.97519
+      times: 0
+    - note: 30.22398
+      times: 0
+    - note: 30.47481
+      times: 0
+    - note: 30.7241
+      times: 0
+    - note: 30.97415
+      times: 0
+    - note: 31.22408
+      times: 0
+    - note: 31.34904
+      times: 0
+    - note: 31.4739
+      times: 0
+    - note: 31.59877
+      times: 0
+    - note: 31.72652
+      times: 0
+    - note: 31.97362
+      times: 0
+    - note: 32.22239
+      times: 0
+    - note: 32.97246
+      times: 0
+    - note: 33.09777
+      times: 0
+    - note: 33.09777
+      times: 0
+    - note: 33.47225
+      times: 0
+    - note: 33.72187
+      times: 0
+    - note: 33.97185
+      times: 0
+    - note: 34.22142
+      times: 0
+    - note: 34.47146
+      times: 0
+    - note: 34.72123
+      times: 0
+    - note: 34.84612
+      times: 0
+    - note: 34.97079
+      times: 0
+    - note: 35.09614
+      times: 0
+    - note: 35.22071
+      times: 0
+    - note: 35.47256
+      times: 0
+    - note: 35.72035
+      times: 0
+    - note: 35.84525
+      times: 0
+    - note: 35.97037
+      times: 0
+    - note: 36.09513
+      times: 0
+    - note: 36.21996
+      times: 0
+    - note: 36.34492
+      times: 0
+    - note: 36.46973
+      times: 0
+    - note: 36.5946
+      times: 0
+    - note: 36.71967
+      times: 0
+    - note: 36.96804
+      times: 0
+    - note: 37.21915
+      times: 0
+    - note: 37.34398
+      times: 0
+    - note: 37.7185
+      times: 0
+    - note: 37.9684
+      times: 0
+    - note: 38.09335
+      times: 0
+    - note: 38.21808
+      times: 0
+    - note: 38.34344
+      times: 0
+    - note: 38.46806
+      times: 0
+    - note: 38.59294
+      times: 0
+    - note: 38.84271
+      times: 0
+    - note: 38.96748
+      times: 0
+    - note: 39.21744
+      times: 0
+    - note: 39.46721
+      times: 0
+    - note: 39.59212
+      times: 0
+    - note: 40.09169
+      times: 0
+    - note: 40.34058
+      times: 0
+    - note: 40.46637
+      times: 0
+    - note: 40.59129
+      times: 0
+    - note: 40.84108
+      times: 0
+    - note: 40.96579
+      times: 0
+    - note: 41.34069
+      times: 0
+    - note: 41.71579
+      times: 0
+    - note: 41.84052
+      times: 0
+    - note: 41.96529
+      times: 0
+    - note: 42.09
+      times: 0
+    - note: 46.46483
+      times: 0
+    - note: 42.83946
+      times: 0
+    - note: 42.96417
+      times: 0
+    - note: 43.21406
+      times: 0
+    - note: 43.71371
+      times: 0
+    - note: 44.08831
+      times: 0
+    - note: 44.21331
+      times: 0
+    - note: 44.46304
+      times: 0
+    - note: 44.7129
+      times: 0
+    - note: 44.83773
+      times: 0
+    - note: 44.8625
+      times: 0
+    - note: 45.0869
+      times: 0
+    - note: 45.21225
+      times: 0
+    - note: 45.46206
+      times: 0
+    - note: 45.58627
+      times: 0
+    - note: 45.71208
+      times: 0
+    - note: 45.83694
+      times: 0
+    - note: 46.08673
+      times: 0
+    - note: 46.3365
+      times: 0
+    - note: 46.46138
+      times: 0
+    - note: 46.71119
+      times: 0
+    - note: 46.83604
+      times: 0
+    - note: 46.96081
+      times: 0
+    - note: 47.0849
+      times: 0
+    - note: 47.21088
+      times: 0
+    - note: 47.46042
+      times: 0
+    - note: 47.96002
+      times: 0
+    - note: 48.12673
+      times: 0
+    - note: 48.95914
+      times: 0
+    - note: 49.45888
+      times: 0
+    - note: 49.95873
+      times: 0
+    - note: 50.45806
+      times: 0
+    - note: 50.95754
+      times: 0
+    - note: 51.45721
+      times: 0
+    - note: 51.95706
+      times: 0
+    - note: 52.45652
+      times: 0
+    - note: 52.95583
+      times: 0
+    - note: 53.45554
+      times: 0
+    - note: 54.45471
+      times: 0
+    - note: 54.95411
+      times: 0
+    - note: 55.45392
+      times: 0
+    - note: 56.95252
+      times: 0
+    - note: 57.95167
+      times: 0
+    - note: 58.95083
+      times: 0
+    - note: 59.95058
+      times: 0
+    - note: 60.94917
+      times: 0
+    - note: 61.44877
+      times: 0
+    - note: 61.94873
+      times: 0
+    - note: 62.94748
+      times: 0
+    - note: 63.94667
+      times: 0
+    - note: 64.94585
+      times: 0
+    - note: 6594519
+      times: 0
+    - note: 66.94417
+      times: 0
+    - note: 67.94335
+      times: 0
+    - note: 68.9425
+      times: 0
+    - note: 69.94215
+      times: 0
+    - note: 0
+      times: 0
