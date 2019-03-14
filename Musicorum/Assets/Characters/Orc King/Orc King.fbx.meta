@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 46b74ad3c2f0f0d428a777d9ad8a855a
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Abdomen_CONT
+    100004: Back_CONT_1
+    100006: Back_CONT_2
+    100008: Back_CONT_3
+    100010: Back_CONT_4
+    100012: Back_CONT_5
+    100014: Back_CONT_6
+    100016: Back_CONT_7
+    100018: Back_CONT_8
+    100020: Back_CONT_9
+    100022: back_joint_1
+    100024: back_joint_2
+    100026: back_joint_3
+    100028: back_joint_4
+    100030: back_joint_5
+    100032: back_joint_6
+    100034: back_joint_7
+    100036: back_joint_8
+    100038: back_joint_9
+    100040: Chest
+    100042: Chest_CONT
+    100044: DoubleSidedAxe
+    100046: Front_CONT_1
+    100048: Front_CONT_2
+    100050: Front_CONT_3
+    100052: Front_CONT_4
+    100054: Front_CONT_5
+    100056: Front_CONT_6
+    100058: Front_CONT_7
+    100060: Front_CONT_8
+    100062: Front_CONT_9
+    100064: front_joint_1
+    100066: front_joint_2
+    100068: front_joint_3
+    100070: front_joint_4
+    100072: front_joint_5
+    100074: front_joint_6
+    100076: front_joint_7
+    100078: front_joint_8
+    100080: front_joint_9
+    100082: Global_CONT
+    100084: Head
+    100086: Head_CONT
+    100088: LeftElbow
+    100090: LeftFoot
+    100092: LeftFoot_Ball
+    100094: LeftIndexFinger
+    100096: LeftIndexFinger_1
+    100098: LeftIndexFinger_2
+    100100: LeftKnee
+    100102: LeftMiddleFinger
+    100104: LeftMiddleFinger_1
+    100106: LeftMiddleFinger_2
+    100108: LeftPinkyFinger
+    100110: LeftPinkyFinger_1
+    100112: LeftPinkyFinger_2
+    100114: LeftShoulder
+    100116: LeftShoulder_CONT
+    100118: LeftThigh
+    100120: LeftThumb
+    100122: LeftThumb_1
+    100124: LeftWrist
+    100126: Neck
+    100128: nurbsCircle16
+    100130: //RootNode
+    100132: OrcKing
+    100134: Pelvis
+    100136: Pelvis_CONT
+    100138: RightElbow
+    100140: RightFoot
+    100142: RightFoot_Ball
+    100144: RIghtFoot_Ball_CONT
+    100146: RightFoot_CONT
+    100148: RightIndexFinger
+    100150: RightIndexFinger_1
+    100152: RightIndexFinger_2
+    100154: RightIndexFinger_3
+    100156: RightKnee
+    100158: RIghtKnee_CONT
+    100160: RightMiddleFinger
+    100162: RightMiddleFinger_1
+    100164: RightMiddleFinger_2
+    100166: RightMiddleFinger_3
+    100168: RightPinkyFinger
+    100170: RightPinkyFinger_1
+    100172: RightPinkyFinger_2
+    100174: RightPinkyFinger_3
+    100176: RightShoulder
+    100178: RightShoulder_CONT
+    100180: RightThigh
+    100182: RightThumb
+    100184: RightThumb_1
+    100186: RightWrist
+    100188: Root
+    100190: Root_CONT
+    100192: rootGRP
+    400000: Abdomen
+    400002: Abdomen_CONT
+    400004: Back_CONT_1
+    400006: Back_CONT_2
+    400008: Back_CONT_3
+    400010: Back_CONT_4
+    400012: Back_CONT_5
+    400014: Back_CONT_6
+    400016: Back_CONT_7
+    400018: Back_CONT_8
+    400020: Back_CONT_9
+    400022: back_joint_1
+    400024: back_joint_2
+    400026: back_joint_3
+    400028: back_joint_4
+    400030: back_joint_5
+    400032: back_joint_6
+    400034: back_joint_7
+    400036: back_joint_8
+    400038: back_joint_9
+    400040: Chest
+    400042: Chest_CONT
+    400044: DoubleSidedAxe
+    400046: Front_CONT_1
+    400048: Front_CONT_2
+    400050: Front_CONT_3
+    400052: Front_CONT_4
+    400054: Front_CONT_5
+    400056: Front_CONT_6
+    400058: Front_CONT_7
+    400060: Front_CONT_8
+    400062: Front_CONT_9
+    400064: front_joint_1
+    400066: front_joint_2
+    400068: front_joint_3
+    400070: front_joint_4
+    400072: front_joint_5
+    400074: front_joint_6
+    400076: front_joint_7
+    400078: front_joint_8
+    400080: front_joint_9
+    400082: Global_CONT
+    400084: Head
+    400086: Head_CONT
+    400088: LeftElbow
+    400090: LeftFoot
+    400092: LeftFoot_Ball
+    400094: LeftIndexFinger
+    400096: LeftIndexFinger_1
+    400098: LeftIndexFinger_2
+    400100: LeftKnee
+    400102: LeftMiddleFinger
+    400104: LeftMiddleFinger_1
+    400106: LeftMiddleFinger_2
+    400108: LeftPinkyFinger
+    400110: LeftPinkyFinger_1
+    400112: LeftPinkyFinger_2
+    400114: LeftShoulder
+    400116: LeftShoulder_CONT
+    400118: LeftThigh
+    400120: LeftThumb
+    400122: LeftThumb_1
+    400124: LeftWrist
+    400126: Neck
+    400128: nurbsCircle16
+    400130: //RootNode
+    400132: OrcKing
+    400134: Pelvis
+    400136: Pelvis_CONT
+    400138: RightElbow
+    400140: RightFoot
+    400142: RightFoot_Ball
+    400144: RIghtFoot_Ball_CONT
+    400146: RightFoot_CONT
+    400148: RightIndexFinger
+    400150: RightIndexFinger_1
+    400152: RightIndexFinger_2
+    400154: RightIndexFinger_3
+    400156: RightKnee
+    400158: RIghtKnee_CONT
+    400160: RightMiddleFinger
+    400162: RightMiddleFinger_1
+    400164: RightMiddleFinger_2
+    400166: RightMiddleFinger_3
+    400168: RightPinkyFinger
+    400170: RightPinkyFinger_1
+    400172: RightPinkyFinger_2
+    400174: RightPinkyFinger_3
+    400176: RightShoulder
+    400178: RightShoulder_CONT
+    400180: RightThigh
+    400182: RightThumb
+    400184: RightThumb_1
+    400186: RightWrist
+    400188: Root
+    400190: Root_CONT
+    400192: rootGRP
+    2100000: dsa
+    2100002: armor
+    2100004: crown
+    2100006: body
+    2300000: DoubleSidedAxe
+    3300000: DoubleSidedAxe
+    4300000: DoubleSidedAxe
+    4300002: OrcKing
+    7400000: Idle
+    7400002: Walk
+    7400004: Attack 1
+    7400006: Attack 2
+    7400008: Death
+    7400010: Weapon Holster
+    9500000: //RootNode
+    13700000: OrcKing
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: armor
+    second: {fileID: 2100000, guid: 91b10432aa9766e448ffa22621420053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 3fd1332c2937cbe4cbf256a27f0ea17f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crown
+    second: {fileID: 2100000, guid: 12bf579202e21c847bd0d7df52729be9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dsa
+    second: {fileID: 2100000, guid: b248ca4a9331c1e40929919ea7449493, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack 1
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack 2
+      takeName: Take 001
+      firstFrame: 86
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Weapon Holster
+      takeName: Take 001
+      firstFrame: 37
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 12
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

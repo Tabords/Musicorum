@@ -41,3 +41,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/PauseMenu.unity
     guid: 067dbe807fd0fa74ea2a8c377cd08d9d
+  - enabled: 1
+    path: Assets/QuestSystem/QuestScene.unity
+    guid: 61a58329bd3a133419be31e6f7121744
+  - enabled: 1
+    path: Assets/CutScenes/LightCutScene.unity
+    guid: 6625cb37efbfea9449364d51c9b14b41
+  - enabled: 1
+    path: Assets/Stage_3/Stage3_DesolationCity_Scene.unity
+    guid: c1886a1f327430c46a3fe5d921e94386
+  - enabled: 1
+    path: Assets/BattleStage/stage2Battlescene/Stage2_Battle_Scene.unity
+    guid: 528ac3085b9752241be75f9b514a6b40
+  - enabled: 1
+    path: Assets/Stage_2/Stage2_DireFallCitadel_Scene.unity
+    guid: a6488c1b84b0c4b44bf9df03c31a2145
+  - enabled: 1
+    path: Assets/BattleStage/Stage3BattleScene/Stage3_BattleScene.unity
+    guid: ae06b6cb829645947be5c374e4a59861

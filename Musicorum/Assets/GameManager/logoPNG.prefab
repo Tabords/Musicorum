@@ -22,13 +22,26 @@ GameObject:
   - component: {fileID: 222737227694999358}
   - component: {fileID: 114279213928719964}
   - component: {fileID: 114170436802836140}
+  - component: {fileID: 65597369910432696}
   m_Layer: 0
   m_Name: logoPNG
-  m_TagString: Untagged
+  m_TagString: BlockDrop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &65597369910432696
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489917875810900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114170436802836140
 MonoBehaviour:
   m_ObjectHideFlags: 1

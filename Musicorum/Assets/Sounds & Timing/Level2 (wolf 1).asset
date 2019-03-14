@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1441c1358ab38d940aa8daaca618b1aa, type: 3}
+  m_Name: Level2 (wolf 1)
+  m_EditorClassIdentifier: 
+  Name: 
+  Bpm: 60
+  audioClip: {fileID: 8300000, guid: da9a4cefd0220a342b5f8871a2d33461, type: 3}
+  Notes:
+  - 3.3844
+  - 3.45156
+  - 8.09369
+  - 10.34376
+  - 12.27707
+  - 15.02958
+  - 16.79906
+  - 19.04913
+  - 21.27736
+  - 22.28498
+  - 23.50401
+  - 24.31671
+  - 25.63736
+  - 27.94483
+  - 29.12035
+  - 29.97233
+  - 30.9
+  - 32.26521
+  - 34.37372
+  - 35.33155
+  - 38.70136
+  - 39.58663
+  - 41.20337
+  - 41.82155
+  - 43.17121
+  - 44.17257
+  - 46.33463
+  - 46.90092
+  - 47.84423
+  - 49.88396
+  - 50.6822
+  - 52.07539
+  - 53.1203
+  - 54.528
+  - 55.6019
+  - 56.61783
+  - 57.50309
+  - 59.27362
+  - 60.27498
+  - 61.17475
+  - 62.37929

@@ -26,7 +26,7 @@ public class RecordBeatController : MonoBehaviour
 	public float originalAlpha;
 	public Image[] micIcon;
 	public Image[] checkMark;
-	public GameObject goButton;
+	public UnityEngine.GameObject goButton;
 	private AudioClip[] savedClips;
 
 	//board
@@ -42,10 +42,10 @@ public class RecordBeatController : MonoBehaviour
 	public Vector2 boardOriginalPivot;
 	public Vector2 boardAnimationPivot;
 	public ToggleBar toggleBar;
-	public GameObject okButton;
+	public UnityEngine.GameObject okButton;
 	public Image frame;
 	public Image picture;
-	public GameObject restoreButtonInner;
+	public UnityEngine.GameObject restoreButtonInner;
 	private int edittingIndex;
 	private AudioClip recordedClip;
 	private AudioClip defaultClip;

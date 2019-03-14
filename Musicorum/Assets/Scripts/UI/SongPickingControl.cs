@@ -21,8 +21,8 @@ public class SongPickingControl : MonoBehaviour
 		public Text titleText;
 		public Image backgroundImage;
 		public ToggleBar difficultyToggle;
-		public GameObject leftButton;
-		public GameObject rightButton;
+		public UnityEngine.GameObject leftButton;
+		public UnityEngine.GameObject rightButton;
 		public Text bestComboText;
 		public Text bestPerfectionText;
 	}
@@ -36,7 +36,7 @@ public class SongPickingControl : MonoBehaviour
 	public Text songInfoArrangerText;
 
 	//Character Board
-	public GameObject characterBoard;
+	public UnityEngine.GameObject characterBoard;
 
 	//curr song properties
 	public int currCollectionIndex;
@@ -44,7 +44,7 @@ public class SongPickingControl : MonoBehaviour
 	public bool currEasyDifficulty;
 
 	//the messenger to pass through other scenes
-	public GameObject songInfoMessengerPrefab;
+	public UnityEngine.GameObject songInfoMessengerPrefab;
 
 	//animation
 	private RotationAnimation flipInAnimation;

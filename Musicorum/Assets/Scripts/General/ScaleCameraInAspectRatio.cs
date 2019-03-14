@@ -18,7 +18,7 @@ public class ScaleCameraInAspectRatio : MonoBehaviour
 			pixRect.width = pixRect.height * aspectRatio;
 			pixRect.y = 0f;
 			pixRect.x = ((float)Screen.width - pixRect.width) / 2f;
-			cam.pixelRect = pixRect;
+			cam.pixelRect = pixRect; 
 		} else {
 			Rect pixRect = cam.pixelRect;
 			pixRect.height = pixRect.width / aspectRatio;

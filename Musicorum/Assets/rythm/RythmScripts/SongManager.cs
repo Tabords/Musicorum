@@ -4,44 +4,82 @@ using UnityEngine;
 using UnityEngine.UI;
 public class SongManager : MonoBehaviour
 {
-    Enemy enemy;
+    EnemyManager enemyManager;
     float songPosition, songPosInBeats, secPerBeat, dsptimesong;
     public int nextIndex = 0;
     float beatsShownInAdvance = 3;
     AudioClip audioClip;
 
-    public SongInfo songInfo;
-    // public SongCollection songCollection;
-    public  SongStorage song;   
-    public AudioSource localAudioSource;
-    [SerializeField] GameObject[] prefabobj;
-    [SerializeField] Transform[] ObjectPosition;
-    public static float beatsShownOnScreen = 4f;
+    public delegate void SongCompleted();
+    public static event SongCompleted songComplete;
 
+    GameManager gameManager;
+    public  SongStorage[] song;       
+    [Header("Audio Source:")]
+    public AudioSource localAudioSource;
+    [SerializeField] UnityEngine.GameObject[] prefabobj;
+    [SerializeField] Transform[] ObjectPosition;
+    public static float beatsShownOnScreen = 2f;
+    int dis;
     void Start()
     {
-        //    enemy = FindObjectOfType<EnemyManager>().enemy;
-        // SongDataCollections(enemy);
-        secPerBeat = 60f / song.Bpm;
+        gameManager = GameManager.Instance;
+        enemyManager = UnityEngine.GameObject.FindObjectOfType<EnemyManager>();
+
+
+        switch (enemyManager.enemy)
+        {
+            case Enemy.OrcDagger:
+                dis = 0;
+                break;
+            case Enemy.OrcSpear:
+                dis = 1;
+                break;
+            case Enemy.OrcKing:
+                dis = 2;
+                break;
+            case Enemy.WereWolf:
+                dis = 3;
+                break;
+            case Enemy.WhiteWolf:
+                dis = 4;
+                break;
+            case Enemy.BlackWolf:
+                dis = 4;
+                break;
+            case Enemy.MiniBot:
+                dis = 5;
+                break;
+            case Enemy.MegaBot:
+                dis = 6;
+                break;
+        }
+        Debug.Log(enemyManager.enemy);
+        localAudioSource.clip = song[dis].audioClip;
+        secPerBeat = 60f / song[dis].Bpm;
         dsptimesong = (float)AudioSettings.dspTime;
-        localAudioSource.clip = song.audioClip;
         localAudioSource.Play();
     }
     void Update()
     {
         songPosition = (float)(AudioSettings.dspTime - dsptimesong);
-        Debug.Log(songPosInBeats);
         songPosInBeats = songPosition / secPerBeat + beatsShownInAdvance;
-            Debug.Log("This");
-        if (nextIndex < song.Notes.Length && song.Notes[nextIndex] < songPosInBeats)
+        if (nextIndex < song[dis].Notes.Length && song[dis].Notes[nextIndex] < songPosInBeats)
         {
             int randomize = Random.Range(0, 4);
-             GameObject gameObjectPrefab = Instantiate(prefabobj[0], ObjectPosition[randomize].position, ObjectPosition[randomize].rotation);
+            GameObject gameObjectPrefab = Instantiate(prefabobj[randomize], ObjectPosition[randomize].position, ObjectPosition[randomize].rotation);
             gameObjectPrefab.transform.SetParent(ObjectPosition[randomize]);
             nextIndex++;
-        } 
+        }
+        if (songPosition > song[dis].Notes.Length)
+        {
+            Debug.Log("songComplete");
+            if (songComplete != null)
+            {
+                songComplete();
+            }
+        }
     }
-
     #region Sondatacollector 
     //void SongDataCollections(Enemy enemy)
     //{

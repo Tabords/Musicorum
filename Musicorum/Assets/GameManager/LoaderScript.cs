@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class LoaderScript : MonoBehaviour {
 
-    public GameObject LoadingScreen;
+    public UnityEngine.GameObject LoadingScreen;
     public Slider slider;
 
 

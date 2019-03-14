@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class UISlideAnimation 
 {
-	public IEnumerator AnimationCoroutine(GameObject current, GameObject next, float width, float duration, bool toRight)
+	public IEnumerator AnimationCoroutine(UnityEngine.GameObject current, UnityEngine.GameObject next, float width, float duration, bool toRight)
 	{
 
 		float i = 0f;

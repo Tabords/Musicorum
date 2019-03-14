@@ -6,6 +6,15 @@ TagManager:
   tags:
   - BlockDrop
   - Goblin
+  - OrcKing
+  - OrcDagger
+  - OrcSpear
+  - Gauge
+  - WereWolf
+  - MiniBot
+  - MegaBot
+  - WhiteWolf
+  - BlackWolf
   layers:
   - Default
   - TransparentFX

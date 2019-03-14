@@ -4,41 +4,41 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ButtonController : MonoBehaviour {
 
-
-    Color Color;
-
+    [Header("Gauge Limiter")]
+    [SerializeField] Slider GaugeLimit;
+    [Header("image to show")]
+    [SerializeField] Image whenPressBtn;
     public KeyCode keypress;
-    bool DestroyImage;
-    // Use this for initialization
-	void Start () {
-
-       Color =  GetComponent<SpriteRenderer>().material.color;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-        if (Input.GetKeyDown(keypress))
-        {
-            DestroyImage = true;
-        }
-        if (Input.GetKeyUp(keypress))
-        {
-            DestroyImage = false;
-        }
-	}
-    private void FixedUpdate()
+    bool checker;
+    float Gaugelimiter;
+    private void Start()
     {
-       //RaycastHit2D raycastHit2D = Physics2D.Raycast(transform.position, Vector2.up,2f);
-       // if (raycastHit2D.collider.tag == "BlockDrop")
-       // {
-       //     if (DestroyImage)
-       //     {
-       //         Debug.Log("Succ");
-       //         Destroy(raycastHit2D.collider.gameObject);
-       //     }
-       // }
-        
+        checker = false;
     }
-
+    private void Update()
+    {
+         if (Input.GetKeyDown(keypress))
+        {
+            whenPressBtn.enabled = true;
+            checker = true;
+        }if(Input.GetKeyUp(keypress))
+        {
+            whenPressBtn.enabled = false;
+            checker = false;
+        }
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.up, out hit, 15))
+        {
+            if (hit.collider.tag == "BlockDrop")
+            {
+                if (checker)
+                {
+                    Debug.Log("destroyed");
+                    GaugeLimit.value++;
+                    Destroy(hit.collider.gameObject);
+                }
+            }
+        }
+    }
+   
 }

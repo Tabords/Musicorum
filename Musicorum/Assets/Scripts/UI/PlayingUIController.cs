@@ -20,19 +20,19 @@ public class PlayingUIController : MonoBehaviour
 	private const float ImageChangeDuration = 0.2f;
 
 	//title
-	public GameObject title;
+	public UnityEngine.GameObject title;
 	public Text titleText;
 
 	//combo
 	public Image comboCircle;
 	public Text comboScoreText;
-	public GameObject comboTextBackground;
+	public UnityEngine.GameObject comboTextBackground;
 	public Text comboText;
 
 	//perfection
 	public Image perfectionCircle;
 	public Text perfectionScoreText;
-	public GameObject perfectionTextBackground;
+	public UnityEngine.GameObject perfectionTextBackground;
 	public Text perfectionText;
 
 	//colors for scores
@@ -47,27 +47,27 @@ public class PlayingUIController : MonoBehaviour
 	private int currPerfection = 0; //good: +1, perfect: +2 (full: fullCount * 2)
 	
 	//pause scene
-	public GameObject pauseButton;
-	public GameObject pauseScene;
+	public UnityEngine.GameObject pauseButton;
+	public UnityEngine.GameObject pauseScene;
 	private float pauseTimeStamp;
 
 	//win scene
-	public GameObject winBlackBackground;
-	public GameObject winTitle;
+	public UnityEngine.GameObject winBlackBackground;
+	public UnityEngine.GameObject winTitle;
 	public Text winTitleText;
 	public Image winComboCircle;
 	public Text winComboScoreText;
-	public GameObject winComboTextBackground;
+	public UnityEngine.GameObject winComboTextBackground;
 	public Text winComboText;
 	public Image winPerfectCircle;
 	public Text winPerfectScoreText;
 	public Text winPerfectText;
-	public GameObject winPerfectTextBackground;
-	public GameObject winFrame;
+	public UnityEngine.GameObject winPerfectTextBackground;
+	public UnityEngine.GameObject winFrame;
 	public Image winPicture;
-	public GameObject winNextButton;
-	public GameObject winRetryButton;
-	public GameObject winSceneBackground;
+	public UnityEngine.GameObject winNextButton;
+	public UnityEngine.GameObject winRetryButton;
+	public UnityEngine.GameObject winSceneBackground;
 	private const float DelayBetweenElements = 0.75f;
 	private const float NumberAnimationDuration = 2f;
 

@@ -9,10 +9,10 @@ public class KeyboardInputManager : MonoBehaviour
 	public static KeyboardInputManager instance;
 
 	//UI elements
-	public GameObject board;
+	public UnityEngine.GameObject board;
 	public Text[] keyTexts;
-	public GameObject[] keyBackgrounds;
-	public GameObject saveButton;
+	public UnityEngine.GameObject[] keyBackgrounds;
+	public UnityEngine.GameObject saveButton;
 
 	public enum KeyBindings {Track1 = 0, Track2, Track3, Track4, Pause};
 	private const string Default1 = "Z";

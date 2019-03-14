@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(fileName = "Quest",menuName = "PlayerQuest")]
@@ -16,4 +17,5 @@ public class Quest_SO : ScriptableObject {
 
     [Header("Current Progress of The Quest")]
     public int currentProgress;
+
 }

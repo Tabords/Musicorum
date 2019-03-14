@@ -66,7 +66,7 @@ public class Conductor : MonoBehaviour
 
 	//count down canvas
 	private const int StartCountDown = 3;
-	public GameObject countDownCanvas;
+	public UnityEngine.GameObject countDownCanvas;
 	public Text countDownText;
 
 

@@ -323,9 +323,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4970625184350176}
-  - component: {fileID: 143747204302939554}
   - component: {fileID: 114703203756855212}
-  - component: {fileID: 114179981639942266}
   m_Layer: 0
   m_Name: KazuCombat
   m_TagString: Player
@@ -1749,17 +1747,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114179981639942266
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1412206274150684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 272cf4e069d7e4c478ddd96e5e2b2b2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114391553986591030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1913,20 +1900,3 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.28576827, y: -0.101522386, z: 0.23924226}
     m_Extent: {x: 1.1457086, y: 1.1052852, z: 0.9720612}
   m_DirtyAABB: 0
---- !u!143 &143747204302939554
-CharacterController:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1412206274150684}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 3.09
-  m_Radius: 0.77
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: -0.04, z: 0}

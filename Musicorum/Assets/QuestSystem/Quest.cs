@@ -3,40 +3,67 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+
+public enum QuestRank{none,Stage1Q,Stage2Q,Stage3Q }
 public class Quest : MonoBehaviour {
-
+    public QuestRank questRank;
     GameManager gm;
-    [Header("List Of Quest")]
-    public Quest_SO quest;
-    [SerializeField] Text Description,Required;
-    int CurrentProgress;
+    [Header("List Of SideQuest")]
+    public Quest_SO[] ListQuest;
 
-    public delegate void CurrenQuest();
-    public event CurrenQuest Cquest;
+    [Header("Main Quest")]
+    public Quest_SO MainQuest;
+    public int CurrentProgress;
+    public  int MainProgress;
+    public static Quest instance;
+    public int currentQuest;
 
+    #region Singleton
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+    #endregion
     private void Start()
     {
         gm = GameManager.Instance;
-        Description.text = quest.Description;
-        Required .text =CurrentProgress.ToString() +"/" + quest.required.ToString();
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.O) && gm.isQuestLoaded == true)
+            switch (questRank)
+            {
+                case QuestRank.Stage1Q:
+                    currentQuest = 0;
+                    break;
+                case QuestRank.Stage2Q:
+                    currentQuest = 1;
+                    break;
+                case QuestRank.Stage3Q:
+                    currentQuest = 2;
+                    break;
+            }
+        Debug.Log("currentProgres" + CurrentProgress);
+
+        if (Input.GetKeyDown(KeyCode.F11))
         {
-            gm.isQuestLoaded = false;
-            UnloadLevel();
+            QuestProgress(1);
+        }
+        if (Input.GetKeyDown(KeyCode.F12))
+        {
+            MainQuestProgress(1);
         }
     }
-    public void QuestProgress()
+    public void QuestProgress(int progress)
     {
-        if (Cquest != null)
-        {
-            Cquest();
-        }
+        CurrentProgress += progress;
     }
-     void UnloadLevel()
+    public void MainQuestProgress(int progress)
     {
-        gm.UnloadLevel("QuestScene");
+        MainProgress += progress;
     }
+  
 }

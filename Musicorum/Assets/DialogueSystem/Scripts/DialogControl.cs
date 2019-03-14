@@ -7,7 +7,7 @@ public class DialogControl : MonoBehaviour {
 
     int DialogCounter;
     [SerializeField] Text Text;
-    [SerializeField] GameObject disablecanvas;
+    [SerializeField] UnityEngine.GameObject disablecanvas;
     [SerializeField] Image image;
     [SerializeField] Sprite[] sprites;
     [SerializeField] Camera cameraA;
@@ -23,7 +23,6 @@ public class DialogControl : MonoBehaviour {
         {
             NextDialog();
         }
-        Debug.Log(DialogCounter);
 	}
 
     void NextDialog() {

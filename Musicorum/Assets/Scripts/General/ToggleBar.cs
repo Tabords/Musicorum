@@ -11,7 +11,7 @@ public class ToggleBar : MonoBehaviour
 	public Color leftColor;
 	public Color rightColor;
 
-	public GameObject knob;
+	public UnityEngine.GameObject knob;
 
 	public float LeftPos = -33.5f;
 	public float RightPos = 33.5f;

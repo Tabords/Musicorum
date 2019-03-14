@@ -4,7 +4,7 @@ using UnityEngine;
 public class MusicNode : MonoBehaviour
 {
 	public TextMesh timesText;
-	public GameObject timesTextBackground;
+	public UnityEngine.GameObject timesTextBackground;
 	public Sprite[] backgroundSprites;
 	public SpriteRenderer ringSprite;
 	[NonSerialized] public float startY;

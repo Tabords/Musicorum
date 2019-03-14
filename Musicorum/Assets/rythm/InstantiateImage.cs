@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class InstantiateImage : MonoBehaviour {
 
-    public GameObject Prefab;
+    public UnityEngine.GameObject Prefab;
 	// Use this for initialization
 	void Start () {
 	}
@@ -18,7 +18,7 @@ public class InstantiateImage : MonoBehaviour {
     }
     IEnumerator enumerator()
     {
-        GameObject PrefabImage = Instantiate(Prefab, transform.position, transform.rotation);
+        UnityEngine.GameObject PrefabImage = Instantiate(Prefab, transform.position, transform.rotation);
         float trans = Prefab.transform.position.y;
         PrefabImage.transform.SetParent(gameObject.transform);
         Prefab.AddComponent<Rigidbody2D>();

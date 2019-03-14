@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerKeyPress : MonoBehaviour {
 
-    [SerializeField] GameObject b1, b2, b3, b4;
+    [SerializeField] UnityEngine.GameObject b1, b2, b3, b4;
     // Use this for initialization
     float referencezD,referenceF,referenceJ,referenceK;
 	void Start () {

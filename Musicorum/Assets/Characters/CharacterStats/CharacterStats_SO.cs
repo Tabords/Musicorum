@@ -55,7 +55,6 @@ public class CharacterStats_SO : ScriptableObject
 
         if (CurrentExperience >= baseExperience)
         {
-            CurrentExperience = 0;
             LevelUp();
         }
     }

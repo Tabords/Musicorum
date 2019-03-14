@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class SceneManagement : MonoBehaviour
 {
 
-    public GameObject LoadingScreen;
-    public Slider slider;
 
     public static SceneManagement instance;
     private void Awake()
@@ -31,11 +29,11 @@ public class SceneManagement : MonoBehaviour
     {
         AsyncOperation ao = SceneManager.LoadSceneAsync(LevelName);
 
-        LoadingScreen.SetActive(true);
+        //LoadingScreen.SetActive(true);
         while (!ao.isDone)
         {
             float progress = Mathf.Clamp01(ao.progress / .9f);
-            slider.value = progress;
+         //   slider.value = progress;
             yield return null;
         }
     }

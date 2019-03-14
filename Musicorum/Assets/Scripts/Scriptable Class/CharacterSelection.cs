@@ -11,7 +11,7 @@ public class CharacterSelection : MonoBehaviour {
     bool toKazu;
 	void Start () {
         animator = GetComponent<Animator>();
-        charSelect = GameObject.FindObjectOfType<CharSelect>();
+        charSelect = UnityEngine.GameObject.FindObjectOfType<CharSelect>();
         toSophia = toKazu = false;
 	}
 
@@ -51,7 +51,6 @@ public class CharacterSelection : MonoBehaviour {
 
     public void selected()
     {
-        Debug.Log(toKazu);
         if (toSophia)
         {
             charSelect.Charenum = choices.sophia;

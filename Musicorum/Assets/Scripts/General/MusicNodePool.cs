@@ -7,7 +7,7 @@ public class MusicNodePool : MonoBehaviour
 {
 	public static MusicNodePool instance;
 
-	public GameObject nodePrefab;
+	public UnityEngine.GameObject nodePrefab;
 
 	public int initialAmount;
 
@@ -24,7 +24,7 @@ public class MusicNodePool : MonoBehaviour
 
 		for (int i = 0; i < initialAmount; i++)
 		{
-			GameObject obj= (GameObject) Instantiate(nodePrefab);
+            UnityEngine.GameObject obj= (UnityEngine.GameObject)Instantiate(nodePrefab);
 			obj.SetActive(false);
 			objList.Add(obj.GetComponent<MusicNode>());
 		}
@@ -43,8 +43,8 @@ public class MusicNodePool : MonoBehaviour
 			}
 		}
 
-		//no inactive instances, instantiate a new GetComponent
-		MusicNode musicNode = ((GameObject) Instantiate(nodePrefab)).GetComponent<MusicNode>();
+        //no inactive instances, instantiate a new GetComponent
+        MusicNode musicNode = ((UnityEngine.GameObject)Instantiate(nodePrefab)).GetComponent<MusicNode>();
 		musicNode.Initialize(posX, startY, endY, removeLineY, posZ, beat, times, color);
 		objList.Add(musicNode);
 		return musicNode;
