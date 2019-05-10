@@ -69,5 +69,4 @@ public class BattleSceneManager : MonoBehaviour
         Destroy(ChPlayer);
         Destroy(ChEnemy);
     }
-
 }

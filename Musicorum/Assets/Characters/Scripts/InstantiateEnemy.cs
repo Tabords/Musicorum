@@ -39,7 +39,7 @@ public class InstantiateEnemy : MonoBehaviour {
             EnemyTypeRand = Random.Range(0, EnemyPrefab.Length);
             enemy = Instantiate(EnemyPrefab[EnemyTypeRand], EnemyPos[EnemySpawnPointRand].transform.position, EnemyPos[EnemySpawnPointRand].transform.rotation);
         }
-    }
+    } 
     IEnumerator BossCall()
     {
         int random = Random.Range(0, EnemyBossPositions.Length);    

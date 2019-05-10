@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour {
     public string LevelName;
-    public string CUrrentLevel;
-    GameManager gm;
+    LoaderScript loaderScript;
+    GameManager gm; 
     private void Start()
     {
+        loaderScript = GameObject.FindObjectOfType<LoaderScript>();
         gm = GameManager.Instance;
     }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            gm.UnloadLevel(CUrrentLevel);
-            gm.LoadLevelAsync(LevelName);
+            loaderScript.LoadLevelAsync(LevelName);
+            gm.LoadLevelAdditive("PlayerPreprefs");
         }
     }
 }

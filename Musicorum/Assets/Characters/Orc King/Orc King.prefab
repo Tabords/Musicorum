@@ -262,7 +262,6 @@ GameObject:
   - component: {fileID: 4934814593548380}
   - component: {fileID: 95509159713960792}
   - component: {fileID: 135869627151460664}
-  - component: {fileID: 114017831473779446}
   m_Layer: 0
   m_Name: Orc King
   m_TagString: OrcKing
@@ -2887,22 +2886,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114017831473779446
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1223614911405220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c52258916c9ce7e4ebc982eb865c1327, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 95509159713960792}
-  CHealth: 30
-  MHealth: 30
-  CDamage: 20
-  Damage: 20
 --- !u!135 &135869627151460664
 SphereCollider:
   m_ObjectHideFlags: 1

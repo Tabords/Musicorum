@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public string LevelName = string.Empty;
     public static GameManager Instance;
     public bool isPauseLoaded, isInventoryLoaded,isQuestLoaded;
+    public int PotionCount;
     private void Awake()
     {
         if (Instance == null)
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
         isPauseLoaded = false;
         isInventoryLoaded = false;
         isQuestLoaded = false;
+        PotionCount = 3;
         LoadLevelAdditive("ScreenMenu");
     }
 
@@ -61,6 +63,7 @@ public class GameManager : MonoBehaviour
             UnloadLevel("Stage2_DireFallCitadel_Scene");
             LoadLevelAsync("Stage3_DesolationCity_Scene");
         }
+        Debug.Log("Available Potion: " + PotionCount);
     }
     public void LoadLevelAsync(string LevelName)
     {
@@ -86,6 +89,10 @@ public class GameManager : MonoBehaviour
         AsyncOperation ao = SceneManager.LoadSceneAsync("RythmUi", LoadSceneMode.Additive);
     }
 
+    public void UsePotion(int use)
+    {
+        PotionCount -= use;
+    }
 
 
 

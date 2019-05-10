@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511c080496f420e4fa2bf84091bcfec0, type: 3}
+  m_Name: Stage3
+  m_EditorClassIdentifier: 
+  CurrentStage: 0
+  Dialog:
+    messenger:
+    - Light
+    - Light
+    - Light
+    - Light
+    - Light
+    message:
+    - Your doing great, this is where you can find the last crystal.
+    - Welcome to Desolation City
+    - "This area is terrorized by robots be careful. \tFind the last crystal, it can
+      be found inside an old factory."
+    - Find the second crystal, it can be found inside the castle.
+    - check your new objectives.
+    - Finish your objectives to reach the last crystal.
+    - Good luck!

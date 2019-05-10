@@ -5,24 +5,28 @@ public class PlayerTriggerScript : MonoBehaviour
 {
     EnemyManager Enemyselected;
     SavingPlayerPos savingPlayerPos;
+    LoaderScript loaderScript;
     private void Start()
     {
+        loaderScript = GameObject.FindObjectOfType<LoaderScript>();
     }
     private void OnTriggerEnter(Collider other)
     {
         Enemyselected = UnityEngine.GameObject.FindObjectOfType<EnemyManager>();
+        Debug.Log("thisthis");
         if (other.tag == "OrcDagger")
         {
+            Debug.Log("OrcDagger collide");
             Destroy(other.gameObject);
             Enemyselected.enemy = Enemy.OrcDagger;
-            GameManager.Instance.LoadLevelAsync("BattleStage");
+            loaderScript.LoadLevelAsync("BattleStage");
             LoadCombat();
         }
         else if (other.gameObject.tag == "OrcSpear")
         {
             Destroy(other.gameObject);
             Enemyselected.enemy = Enemy.OrcSpear;
-            GameManager.Instance.LoadLevelAsync("BattleStage");
+            loaderScript.LoadLevelAsync("BattleStage");
             LoadCombat();
         }
         else if (other.gameObject.tag == "OrcKing")

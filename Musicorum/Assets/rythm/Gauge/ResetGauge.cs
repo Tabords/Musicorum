@@ -9,7 +9,7 @@ public class ResetGauge : MonoBehaviour
     CharacterRaycast RayChar;
     private void Start()
     {
-        RayChar = GameObject.FindObjectOfType<CharacterRaycast>();
+        RayChar = FindObjectOfType<CharacterRaycast>();
     }
     public void GaugeResetter(Slider slider)
     {

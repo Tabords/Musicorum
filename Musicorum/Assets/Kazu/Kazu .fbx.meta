@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: 61801d140123d0e4cb08d0d30ec52daf
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: back
+    100004: Chest
+    100006: group
+    100008: group1
+    100010: Head
+    100012: Head_BallJoint
+    100014: //RootNode
+    100016: left
+    100018: LeftElbow
+    100020: LeftFoot
+    100022: LeftFoot_BallJoint
+    100024: LeftFoot_Joint1
+    100026: LeftIndexFinger
+    100028: LeftIndexFinger_BallJoint
+    100030: LeftIndexFinger_Joint1
+    100032: LeftIndexFinger_Joint2
+    100034: LeftKnee
+    100036: LeftMiddleFinger
+    100038: LeftMiddleFinger_BallJoint
+    100040: LeftMiddleFinger_Joint1
+    100042: LeftMiddleFinger_Joint2
+    100044: LeftPinkyFinger
+    100046: LeftPinkyFinger_BallJoint
+    100048: LeftPinkyFinger_Joint1
+    100050: LeftPinkyFinger_Joint2
+    100052: LeftRingFinger
+    100054: LeftRingFinger_BallJoint
+    100056: LeftRingFinger_Joint1
+    100058: LeftRingFinger_Joint2
+    100060: LeftShoulder
+    100062: LeftThigh
+    100064: LeftThumbFinger
+    100066: LeftThumbFinger_BallJoint
+    100068: LeftThumbFinger_Joint1
+    100070: LeftWrist
+    100072: Neck
+    100074: nurbsCircle1
+    100076: pasted__Abdomen
+    100078: pasted__Abdomen 1
+    100080: pasted__Chest
+    100082: pasted__Chest 1
+    100084: pasted__group
+    100086: pasted__Head
+    100088: pasted__Head 1
+    100090: pasted__Head_BallJoint
+    100092: pasted__Head_BallJoint 1
+    100094: pasted__LeftElbow
+    100096: pasted__LeftElbow 1
+    100098: pasted__LeftFoot
+    100100: pasted__LeftFoot 1
+    100102: pasted__LeftFoot_BallJoint
+    100104: pasted__LeftFoot_BallJoint 1
+    100106: pasted__LeftFoot_Joint1
+    100108: pasted__LeftFoot_Joint1 1
+    100110: pasted__LeftIndexFinger
+    100112: pasted__LeftIndexFinger 1
+    100114: pasted__LeftIndexFinger_BallJoint
+    100116: pasted__LeftIndexFinger_BallJoint 1
+    100118: pasted__LeftIndexFinger_Joint1
+    100120: pasted__LeftIndexFinger_Joint1 1
+    100122: pasted__LeftIndexFinger_Joint2
+    100124: pasted__LeftIndexFinger_Joint2 1
+    100126: pasted__LeftKnee
+    100128: pasted__LeftKnee 1
+    100130: pasted__LeftMiddleFinger
+    100132: pasted__LeftMiddleFinger 1
+    100134: pasted__LeftMiddleFinger_BallJoint
+    100136: pasted__LeftMiddleFinger_BallJoint 1
+    100138: pasted__LeftMiddleFinger_Joint1
+    100140: pasted__LeftMiddleFinger_Joint1 1
+    100142: pasted__LeftMiddleFinger_Joint2
+    100144: pasted__LeftMiddleFinger_Joint2 1
+    100146: pasted__LeftPinkyFinger
+    100148: pasted__LeftPinkyFinger 1
+    100150: pasted__LeftPinkyFinger_BallJoint
+    100152: pasted__LeftPinkyFinger_BallJoint 1
+    100154: pasted__LeftPinkyFinger_Joint1
+    100156: pasted__LeftPinkyFinger_Joint1 1
+    100158: pasted__LeftPinkyFinger_Joint2
+    100160: pasted__LeftPinkyFinger_Joint2 1
+    100162: pasted__LeftRingFinger
+    100164: pasted__LeftRingFinger 1
+    100166: pasted__LeftRingFinger_BallJoint
+    100168: pasted__LeftRingFinger_BallJoint 1
+    100170: pasted__LeftRingFinger_Joint1
+    100172: pasted__LeftRingFinger_Joint1 1
+    100174: pasted__LeftRingFinger_Joint2
+    100176: pasted__LeftRingFinger_Joint2 1
+    100178: pasted__LeftShoulder
+    100180: pasted__LeftShoulder 1
+    100182: pasted__LeftThigh
+    100184: pasted__LeftThigh 1
+    100186: pasted__LeftThumbFinger
+    100188: pasted__LeftThumbFinger 1
+    100190: pasted__LeftThumbFinger_BallJoint
+    100192: pasted__LeftThumbFinger_BallJoint 1
+    100194: pasted__LeftThumbFinger_Joint1
+    100196: pasted__LeftThumbFinger_Joint1 1
+    100198: pasted__LeftWrist
+    100200: pasted__LeftWrist 1
+    100202: pasted__Neck
+    100204: pasted__Neck 1
+    100206: pasted__pasted__Abdomen
+    100208: pasted__pasted__AbdomenController
+    100210: pasted__pasted__Chest
+    100212: pasted__pasted__ChestController
+    100214: pasted__pasted__GlobalController
+    100216: pasted__pasted__Head
+    100218: pasted__pasted__Head_BallJoint
+    100220: pasted__pasted__HeadController
+    100222: pasted__pasted__ikHandle1
+    100224: pasted__pasted__ikHandle2
+    100226: pasted__pasted__Kazu
+    100228: pasted__pasted__LeftBallFootController
+    100230: pasted__pasted__LeftElbow
+    100232: pasted__pasted__LeftElbowController
+    100234: pasted__pasted__LeftFoot
+    100236: pasted__pasted__LeftFoot_BallJoint
+    100238: pasted__pasted__LeftFoot_Joint1
+    100240: pasted__pasted__LeftIndexFinger
+    100242: pasted__pasted__LeftIndexFinger_BallJoint
+    100244: pasted__pasted__LeftIndexFinger_Joint1
+    100246: pasted__pasted__LeftIndexFinger_Joint1Controller
+    100248: pasted__pasted__LeftIndexFinger_Joint2
+    100250: pasted__pasted__LeftIndexFinger_Joint2Controller
+    100252: pasted__pasted__LeftIndexFingerController
+    100254: pasted__pasted__LeftKnee
+    100256: pasted__pasted__LeftKneeController
+    100258: pasted__pasted__LeftMiddleFinger
+    100260: pasted__pasted__LeftMiddleFinger_BallJoint
+    100262: pasted__pasted__LeftMiddleFinger_Joint1
+    100264: pasted__pasted__LeftMiddleFinger_Joint1Controller
+    100266: pasted__pasted__LeftMiddleFinger_Joint2
+    100268: pasted__pasted__LeftMiddleFinger_Joint2Controller
+    100270: pasted__pasted__LeftMiddleFingerController
+    100272: pasted__pasted__LeftPinkyFinger
+    100274: pasted__pasted__LeftPinkyFinger_BallJoint
+    100276: pasted__pasted__LeftPinkyFinger_Joint1
+    100278: pasted__pasted__LeftPinkyFinger_Joint1Controller
+    100280: pasted__pasted__LeftPinkyFinger_Joint2
+    100282: pasted__pasted__LeftPinkyFinger_Joint2Controller
+    100284: pasted__pasted__LeftPinkyFingerController
+    100286: pasted__pasted__LeftRingFinger
+    100288: pasted__pasted__LeftRingFinger_BallJoint
+    100290: pasted__pasted__LeftRingFinger_Joint1
+    100292: pasted__pasted__LeftRingFinger_Joint1Controller
+    100294: pasted__pasted__LeftRingFinger_Joint2
+    100296: pasted__pasted__LeftRingFinger_Joint2Controller
+    100298: pasted__pasted__LeftRingFingerController
+    100300: pasted__pasted__LeftShoulder
+    100302: pasted__pasted__LeftShoulderController
+    100304: pasted__pasted__LeftTalampakanController
+    100306: pasted__pasted__LeftThigh
+    100308: pasted__pasted__LeftThumbFinger
+    100310: pasted__pasted__LeftThumbFinger_BallJoint
+    100312: pasted__pasted__LeftThumbFinger_Join1Controller
+    100314: pasted__pasted__LeftThumbFinger_Joint1
+    100316: pasted__pasted__LeftThumbFingerController
+    100318: pasted__pasted__LeftWrist
+    100320: pasted__pasted__LeftWristController
+    100322: pasted__pasted__Neck
+    100324: pasted__pasted__Pelvis
+    100326: pasted__pasted__PelvisController
+    100328: pasted__pasted__RightBallFootController
+    100330: pasted__pasted__RightElbow
+    100332: pasted__pasted__RightElbowController
+    100334: pasted__pasted__RightFoot
+    100336: pasted__pasted__RightFoot_BallJoint
+    100338: pasted__pasted__RightFoot_Joint1
+    100340: pasted__pasted__RightIndexFinger
+    100342: pasted__pasted__RightIndexFinger_BallJoint
+    100344: pasted__pasted__RightIndexFinger_Joint1
+    100346: pasted__pasted__RightIndexFinger_Joint1Controller
+    100348: pasted__pasted__RightIndexFinger_Joint2
+    100350: pasted__pasted__RightIndexFinger_Joint2Controller
+    100352: pasted__pasted__RightIndexFingerController
+    100354: pasted__pasted__RightKnee
+    100356: pasted__pasted__RightKneeController
+    100358: pasted__pasted__RightMiddleFinger
+    100360: pasted__pasted__RightMiddleFinger_BallJoint
+    100362: pasted__pasted__RightMiddleFinger_Joint1
+    100364: pasted__pasted__RightMiddleFinger_Joint1Controller
+    100366: pasted__pasted__RightMiddleFinger_Joint2
+    100368: pasted__pasted__RightMiddleFinger_Joint2Controller
+    100370: pasted__pasted__RightMiddleFingerController
+    100372: pasted__pasted__RightPinkyFinger
+    100374: pasted__pasted__RightPinkyFinger_BallJoint
+    100376: pasted__pasted__RightPinkyFinger_Joint1
+    100378: pasted__pasted__RightPinkyFinger_Joint1Controller
+    100380: pasted__pasted__RightPinkyFinger_Joint2
+    100382: pasted__pasted__RightPinkyFinger_Joint2Controller
+    100384: pasted__pasted__RightPinkyFingerController
+    100386: pasted__pasted__RightRingFinger
+    100388: pasted__pasted__RightRingFinger_BallJoint
+    100390: pasted__pasted__RightRingFinger_Joint1
+    100392: pasted__pasted__RightRingFinger_Joint1Controller
+    100394: pasted__pasted__RightRingFinger_Joint2
+    100396: pasted__pasted__RightRingFinger_Joint2Controller
+    100398: pasted__pasted__RightRingFingerController
+    100400: pasted__pasted__RightShoulder
+    100402: pasted__pasted__RightShoulderController
+    100404: pasted__pasted__RightTalampakanController
+    100406: pasted__pasted__RightThigh
+    100408: pasted__pasted__RightThumbFinger
+    100410: pasted__pasted__RightThumbFinger_BallJoint
+    100412: pasted__pasted__RightThumbFinger_Joint1
+    100414: pasted__pasted__RightThumbFinger_Joint1Controller
+    100416: pasted__pasted__RightThumbFingerController
+    100418: pasted__pasted__RightWrist
+    100420: pasted__pasted__RightWristController
+    100422: pasted__pasted__RootController
+    100424: pasted__pasted__rootGRP
+    100426: pasted__pasted__RootJoint
+    100428: pasted__Pelvis
+    100430: pasted__Pelvis 1
+    100432: pasted__RightElbow
+    100434: pasted__RightElbow 1
+    100436: pasted__RightFoot
+    100438: pasted__RightFoot 1
+    100440: pasted__RightFoot_BallJoint
+    100442: pasted__RightFoot_BallJoint 1
+    100444: pasted__RightFoot_Joint1
+    100446: pasted__RightFoot_Joint1 1
+    100448: pasted__RightIndexFinger
+    100450: pasted__RightIndexFinger 1
+    100452: pasted__RightIndexFinger_BallJoint
+    100454: pasted__RightIndexFinger_BallJoint 1
+    100456: pasted__RightIndexFinger_Joint1
+    100458: pasted__RightIndexFinger_Joint1 1
+    100460: pasted__RightIndexFinger_Joint2
+    100462: pasted__RightIndexFinger_Joint2 1
+    100464: pasted__RightKnee
+    100466: pasted__RightKnee 1
+    100468: pasted__RightMiddleFinger
+    100470: pasted__RightMiddleFinger 1
+    100472: pasted__RightMiddleFinger_BallJoint
+    100474: pasted__RightMiddleFinger_BallJoint 1
+    100476: pasted__RightMiddleFinger_Joint1
+    100478: pasted__RightMiddleFinger_Joint1 1
+    100480: pasted__RightMiddleFinger_Joint2
+    100482: pasted__RightMiddleFinger_Joint2 1
+    100484: pasted__RightPinkyFinger
+    100486: pasted__RightPinkyFinger 1
+    100488: pasted__RightPinkyFinger_BallJoint
+    100490: pasted__RightPinkyFinger_BallJoint 1
+    100492: pasted__RightPinkyFinger_Joint1
+    100494: pasted__RightPinkyFinger_Joint1 1
+    100496: pasted__RightPinkyFinger_Joint2
+    100498: pasted__RightPinkyFinger_Joint2 1
+    100500: pasted__RightRingFinger
+    100502: pasted__RightRingFinger 1
+    100504: pasted__RightRingFinger_BallJoint
+    100506: pasted__RightRingFinger_BallJoint 1
+    100508: pasted__RightRingFinger_Joint1
+    100510: pasted__RightRingFinger_Joint1 1
+    100512: pasted__RightRingFinger_Joint2
+    100514: pasted__RightRingFinger_Joint2 1
+    100516: pasted__RightShoulder
+    100518: pasted__RightShoulder 1
+    100520: pasted__RightThigh
+    100522: pasted__RightThigh 1
+    100524: pasted__RightThumbFinger
+    100526: pasted__RightThumbFinger 1
+    100528: pasted__RightThumbFinger_BallJoint
+    100530: pasted__RightThumbFinger_BallJoint 1
+    100532: pasted__RightThumbFinger_Joint1
+    100534: pasted__RightThumbFinger_Joint1 1
+    100536: pasted__RightWrist
+    100538: pasted__RightWrist 1
+    100540: pasted__rootGRP
+    100542: pasted__rootGRP 1
+    100544: pasted__RootJoint
+    100546: pasted__RootJoint 1
+    100548: Pelvis
+    100550: RightElbow
+    100552: RightFoot
+    100554: RightFoot_BallJoint
+    100556: RightFoot_Joint1
+    100558: RightIndexFinger
+    100560: RightIndexFinger_BallJoint
+    100562: RightIndexFinger_Joint1
+    100564: RightIndexFinger_Joint2
+    100566: RightKnee
+    100568: RightMiddleFinger
+    100570: RightMiddleFinger_BallJoint
+    100572: RightMiddleFinger_Joint1
+    100574: RightMiddleFinger_Joint2
+    100576: RightPinkyFinger
+    100578: RightPinkyFinger_BallJoint
+    100580: RightPinkyFinger_Joint1
+    100582: RightPinkyFinger_Joint2
+    100584: RightRingFinger
+    100586: RightRingFinger_BallJoint
+    100588: RightRingFinger_Joint1
+    100590: RightRingFinger_Joint2
+    100592: RightShoulder
+    100594: RightThigh
+    100596: RightThumbFinger
+    100598: RightThumbFinger_BallJoint
+    100600: RightThumbFinger_Joint1
+    100602: RightWrist
+    100604: rootGRP
+    100606: RootJoint
+    100608: Weapon_Drum_Asset:polySurface1
+    100610: Weapon_Drum_Asset:polySurface2
+    100612: Weapon_Drum_Asset:polySurface3
+    100614: Weapon_Drum_Asset:polySurface4
+    100616: Weapon_Drum_Asset:polySurface5
+    100618: Weapon_Drum_Asset:transform1
+    100620: Weapon_Drum_Asset:transform2
+    100622: Weapon_Drum_Asset:transform3
+    100624: Weapon_Drum_Asset:transform4
+    100626: Weapon_Drum_Asset:transform5
+    100628: Weapon_Drum_Asset:transform6
+    100630: Weapon_Drum_Asset:Weapon_Drum_Asset
+    100632: Weapon_Drum_Asset__1_3:Drum
+    100634: Weapon_Drum_Asset__1_3:drumstick_1
+    100636: Weapon_Drum_Asset__1_3:drumstick_2
+    400000: Abdomen
+    400002: back
+    400004: Chest
+    400006: group
+    400008: group1
+    400010: Head
+    400012: Head_BallJoint
+    400014: //RootNode
+    400016: left
+    400018: LeftElbow
+    400020: LeftFoot
+    400022: LeftFoot_BallJoint
+    400024: LeftFoot_Joint1
+    400026: LeftIndexFinger
+    400028: LeftIndexFinger_BallJoint
+    400030: LeftIndexFinger_Joint1
+    400032: LeftIndexFinger_Joint2
+    400034: LeftKnee
+    400036: LeftMiddleFinger
+    400038: LeftMiddleFinger_BallJoint
+    400040: LeftMiddleFinger_Joint1
+    400042: LeftMiddleFinger_Joint2
+    400044: LeftPinkyFinger
+    400046: LeftPinkyFinger_BallJoint
+    400048: LeftPinkyFinger_Joint1
+    400050: LeftPinkyFinger_Joint2
+    400052: LeftRingFinger
+    400054: LeftRingFinger_BallJoint
+    400056: LeftRingFinger_Joint1
+    400058: LeftRingFinger_Joint2
+    400060: LeftShoulder
+    400062: LeftThigh
+    400064: LeftThumbFinger
+    400066: LeftThumbFinger_BallJoint
+    400068: LeftThumbFinger_Joint1
+    400070: LeftWrist
+    400072: Neck
+    400074: nurbsCircle1
+    400076: pasted__Abdomen
+    400078: pasted__Abdomen 1
+    400080: pasted__Chest
+    400082: pasted__Chest 1
+    400084: pasted__group
+    400086: pasted__Head
+    400088: pasted__Head 1
+    400090: pasted__Head_BallJoint
+    400092: pasted__Head_BallJoint 1
+    400094: pasted__LeftElbow
+    400096: pasted__LeftElbow 1
+    400098: pasted__LeftFoot
+    400100: pasted__LeftFoot 1
+    400102: pasted__LeftFoot_BallJoint
+    400104: pasted__LeftFoot_BallJoint 1
+    400106: pasted__LeftFoot_Joint1
+    400108: pasted__LeftFoot_Joint1 1
+    400110: pasted__LeftIndexFinger
+    400112: pasted__LeftIndexFinger 1
+    400114: pasted__LeftIndexFinger_BallJoint
+    400116: pasted__LeftIndexFinger_BallJoint 1
+    400118: pasted__LeftIndexFinger_Joint1
+    400120: pasted__LeftIndexFinger_Joint1 1
+    400122: pasted__LeftIndexFinger_Joint2
+    400124: pasted__LeftIndexFinger_Joint2 1
+    400126: pasted__LeftKnee
+    400128: pasted__LeftKnee 1
+    400130: pasted__LeftMiddleFinger
+    400132: pasted__LeftMiddleFinger 1
+    400134: pasted__LeftMiddleFinger_BallJoint
+    400136: pasted__LeftMiddleFinger_BallJoint 1
+    400138: pasted__LeftMiddleFinger_Joint1
+    400140: pasted__LeftMiddleFinger_Joint1 1
+    400142: pasted__LeftMiddleFinger_Joint2
+    400144: pasted__LeftMiddleFinger_Joint2 1
+    400146: pasted__LeftPinkyFinger
+    400148: pasted__LeftPinkyFinger 1
+    400150: pasted__LeftPinkyFinger_BallJoint
+    400152: pasted__LeftPinkyFinger_BallJoint 1
+    400154: pasted__LeftPinkyFinger_Joint1
+    400156: pasted__LeftPinkyFinger_Joint1 1
+    400158: pasted__LeftPinkyFinger_Joint2
+    400160: pasted__LeftPinkyFinger_Joint2 1
+    400162: pasted__LeftRingFinger
+    400164: pasted__LeftRingFinger 1
+    400166: pasted__LeftRingFinger_BallJoint
+    400168: pasted__LeftRingFinger_BallJoint 1
+    400170: pasted__LeftRingFinger_Joint1
+    400172: pasted__LeftRingFinger_Joint1 1
+    400174: pasted__LeftRingFinger_Joint2
+    400176: pasted__LeftRingFinger_Joint2 1
+    400178: pasted__LeftShoulder
+    400180: pasted__LeftShoulder 1
+    400182: pasted__LeftThigh
+    400184: pasted__LeftThigh 1
+    400186: pasted__LeftThumbFinger
+    400188: pasted__LeftThumbFinger 1
+    400190: pasted__LeftThumbFinger_BallJoint
+    400192: pasted__LeftThumbFinger_BallJoint 1
+    400194: pasted__LeftThumbFinger_Joint1
+    400196: pasted__LeftThumbFinger_Joint1 1
+    400198: pasted__LeftWrist
+    400200: pasted__LeftWrist 1
+    400202: pasted__Neck
+    400204: pasted__Neck 1
+    400206: pasted__pasted__Abdomen
+    400208: pasted__pasted__AbdomenController
+    400210: pasted__pasted__Chest
+    400212: pasted__pasted__ChestController
+    400214: pasted__pasted__GlobalController
+    400216: pasted__pasted__Head
+    400218: pasted__pasted__Head_BallJoint
+    400220: pasted__pasted__HeadController
+    400222: pasted__pasted__ikHandle1
+    400224: pasted__pasted__ikHandle2
+    400226: pasted__pasted__Kazu
+    400228: pasted__pasted__LeftBallFootController
+    400230: pasted__pasted__LeftElbow
+    400232: pasted__pasted__LeftElbowController
+    400234: pasted__pasted__LeftFoot
+    400236: pasted__pasted__LeftFoot_BallJoint
+    400238: pasted__pasted__LeftFoot_Joint1
+    400240: pasted__pasted__LeftIndexFinger
+    400242: pasted__pasted__LeftIndexFinger_BallJoint
+    400244: pasted__pasted__LeftIndexFinger_Joint1
+    400246: pasted__pasted__LeftIndexFinger_Joint1Controller
+    400248: pasted__pasted__LeftIndexFinger_Joint2
+    400250: pasted__pasted__LeftIndexFinger_Joint2Controller
+    400252: pasted__pasted__LeftIndexFingerController
+    400254: pasted__pasted__LeftKnee
+    400256: pasted__pasted__LeftKneeController
+    400258: pasted__pasted__LeftMiddleFinger
+    400260: pasted__pasted__LeftMiddleFinger_BallJoint
+    400262: pasted__pasted__LeftMiddleFinger_Joint1
+    400264: pasted__pasted__LeftMiddleFinger_Joint1Controller
+    400266: pasted__pasted__LeftMiddleFinger_Joint2
+    400268: pasted__pasted__LeftMiddleFinger_Joint2Controller
+    400270: pasted__pasted__LeftMiddleFingerController
+    400272: pasted__pasted__LeftPinkyFinger
+    400274: pasted__pasted__LeftPinkyFinger_BallJoint
+    400276: pasted__pasted__LeftPinkyFinger_Joint1
+    400278: pasted__pasted__LeftPinkyFinger_Joint1Controller
+    400280: pasted__pasted__LeftPinkyFinger_Joint2
+    400282: pasted__pasted__LeftPinkyFinger_Joint2Controller
+    400284: pasted__pasted__LeftPinkyFingerController
+    400286: pasted__pasted__LeftRingFinger
+    400288: pasted__pasted__LeftRingFinger_BallJoint
+    400290: pasted__pasted__LeftRingFinger_Joint1
+    400292: pasted__pasted__LeftRingFinger_Joint1Controller
+    400294: pasted__pasted__LeftRingFinger_Joint2
+    400296: pasted__pasted__LeftRingFinger_Joint2Controller
+    400298: pasted__pasted__LeftRingFingerController
+    400300: pasted__pasted__LeftShoulder
+    400302: pasted__pasted__LeftShoulderController
+    400304: pasted__pasted__LeftTalampakanController
+    400306: pasted__pasted__LeftThigh
+    400308: pasted__pasted__LeftThumbFinger
+    400310: pasted__pasted__LeftThumbFinger_BallJoint
+    400312: pasted__pasted__LeftThumbFinger_Join1Controller
+    400314: pasted__pasted__LeftThumbFinger_Joint1
+    400316: pasted__pasted__LeftThumbFingerController
+    400318: pasted__pasted__LeftWrist
+    400320: pasted__pasted__LeftWristController
+    400322: pasted__pasted__Neck
+    400324: pasted__pasted__Pelvis
+    400326: pasted__pasted__PelvisController
+    400328: pasted__pasted__RightBallFootController
+    400330: pasted__pasted__RightElbow
+    400332: pasted__pasted__RightElbowController
+    400334: pasted__pasted__RightFoot
+    400336: pasted__pasted__RightFoot_BallJoint
+    400338: pasted__pasted__RightFoot_Joint1
+    400340: pasted__pasted__RightIndexFinger
+    400342: pasted__pasted__RightIndexFinger_BallJoint
+    400344: pasted__pasted__RightIndexFinger_Joint1
+    400346: pasted__pasted__RightIndexFinger_Joint1Controller
+    400348: pasted__pasted__RightIndexFinger_Joint2
+    400350: pasted__pasted__RightIndexFinger_Joint2Controller
+    400352: pasted__pasted__RightIndexFingerController
+    400354: pasted__pasted__RightKnee
+    400356: pasted__pasted__RightKneeController
+    400358: pasted__pasted__RightMiddleFinger
+    400360: pasted__pasted__RightMiddleFinger_BallJoint
+    400362: pasted__pasted__RightMiddleFinger_Joint1
+    400364: pasted__pasted__RightMiddleFinger_Joint1Controller
+    400366: pasted__pasted__RightMiddleFinger_Joint2
+    400368: pasted__pasted__RightMiddleFinger_Joint2Controller
+    400370: pasted__pasted__RightMiddleFingerController
+    400372: pasted__pasted__RightPinkyFinger
+    400374: pasted__pasted__RightPinkyFinger_BallJoint
+    400376: pasted__pasted__RightPinkyFinger_Joint1
+    400378: pasted__pasted__RightPinkyFinger_Joint1Controller
+    400380: pasted__pasted__RightPinkyFinger_Joint2
+    400382: pasted__pasted__RightPinkyFinger_Joint2Controller
+    400384: pasted__pasted__RightPinkyFingerController
+    400386: pasted__pasted__RightRingFinger
+    400388: pasted__pasted__RightRingFinger_BallJoint
+    400390: pasted__pasted__RightRingFinger_Joint1
+    400392: pasted__pasted__RightRingFinger_Joint1Controller
+    400394: pasted__pasted__RightRingFinger_Joint2
+    400396: pasted__pasted__RightRingFinger_Joint2Controller
+    400398: pasted__pasted__RightRingFingerController
+    400400: pasted__pasted__RightShoulder
+    400402: pasted__pasted__RightShoulderController
+    400404: pasted__pasted__RightTalampakanController
+    400406: pasted__pasted__RightThigh
+    400408: pasted__pasted__RightThumbFinger
+    400410: pasted__pasted__RightThumbFinger_BallJoint
+    400412: pasted__pasted__RightThumbFinger_Joint1
+    400414: pasted__pasted__RightThumbFinger_Joint1Controller
+    400416: pasted__pasted__RightThumbFingerController
+    400418: pasted__pasted__RightWrist
+    400420: pasted__pasted__RightWristController
+    400422: pasted__pasted__RootController
+    400424: pasted__pasted__rootGRP
+    400426: pasted__pasted__RootJoint
+    400428: pasted__Pelvis
+    400430: pasted__Pelvis 1
+    400432: pasted__RightElbow
+    400434: pasted__RightElbow 1
+    400436: pasted__RightFoot
+    400438: pasted__RightFoot 1
+    400440: pasted__RightFoot_BallJoint
+    400442: pasted__RightFoot_BallJoint 1
+    400444: pasted__RightFoot_Joint1
+    400446: pasted__RightFoot_Joint1 1
+    400448: pasted__RightIndexFinger
+    400450: pasted__RightIndexFinger 1
+    400452: pasted__RightIndexFinger_BallJoint
+    400454: pasted__RightIndexFinger_BallJoint 1
+    400456: pasted__RightIndexFinger_Joint1
+    400458: pasted__RightIndexFinger_Joint1 1
+    400460: pasted__RightIndexFinger_Joint2
+    400462: pasted__RightIndexFinger_Joint2 1
+    400464: pasted__RightKnee
+    400466: pasted__RightKnee 1
+    400468: pasted__RightMiddleFinger
+    400470: pasted__RightMiddleFinger 1
+    400472: pasted__RightMiddleFinger_BallJoint
+    400474: pasted__RightMiddleFinger_BallJoint 1
+    400476: pasted__RightMiddleFinger_Joint1
+    400478: pasted__RightMiddleFinger_Joint1 1
+    400480: pasted__RightMiddleFinger_Joint2
+    400482: pasted__RightMiddleFinger_Joint2 1
+    400484: pasted__RightPinkyFinger
+    400486: pasted__RightPinkyFinger 1
+    400488: pasted__RightPinkyFinger_BallJoint
+    400490: pasted__RightPinkyFinger_BallJoint 1
+    400492: pasted__RightPinkyFinger_Joint1
+    400494: pasted__RightPinkyFinger_Joint1 1
+    400496: pasted__RightPinkyFinger_Joint2
+    400498: pasted__RightPinkyFinger_Joint2 1
+    400500: pasted__RightRingFinger
+    400502: pasted__RightRingFinger 1
+    400504: pasted__RightRingFinger_BallJoint
+    400506: pasted__RightRingFinger_BallJoint 1
+    400508: pasted__RightRingFinger_Joint1
+    400510: pasted__RightRingFinger_Joint1 1
+    400512: pasted__RightRingFinger_Joint2
+    400514: pasted__RightRingFinger_Joint2 1
+    400516: pasted__RightShoulder
+    400518: pasted__RightShoulder 1
+    400520: pasted__RightThigh
+    400522: pasted__RightThigh 1
+    400524: pasted__RightThumbFinger
+    400526: pasted__RightThumbFinger 1
+    400528: pasted__RightThumbFinger_BallJoint
+    400530: pasted__RightThumbFinger_BallJoint 1
+    400532: pasted__RightThumbFinger_Joint1
+    400534: pasted__RightThumbFinger_Joint1 1
+    400536: pasted__RightWrist
+    400538: pasted__RightWrist 1
+    400540: pasted__rootGRP
+    400542: pasted__rootGRP 1
+    400544: pasted__RootJoint
+    400546: pasted__RootJoint 1
+    400548: Pelvis
+    400550: RightElbow
+    400552: RightFoot
+    400554: RightFoot_BallJoint
+    400556: RightFoot_Joint1
+    400558: RightIndexFinger
+    400560: RightIndexFinger_BallJoint
+    400562: RightIndexFinger_Joint1
+    400564: RightIndexFinger_Joint2
+    400566: RightKnee
+    400568: RightMiddleFinger
+    400570: RightMiddleFinger_BallJoint
+    400572: RightMiddleFinger_Joint1
+    400574: RightMiddleFinger_Joint2
+    400576: RightPinkyFinger
+    400578: RightPinkyFinger_BallJoint
+    400580: RightPinkyFinger_Joint1
+    400582: RightPinkyFinger_Joint2
+    400584: RightRingFinger
+    400586: RightRingFinger_BallJoint
+    400588: RightRingFinger_Joint1
+    400590: RightRingFinger_Joint2
+    400592: RightShoulder
+    400594: RightThigh
+    400596: RightThumbFinger
+    400598: RightThumbFinger_BallJoint
+    400600: RightThumbFinger_Joint1
+    400602: RightWrist
+    400604: rootGRP
+    400606: RootJoint
+    400608: Weapon_Drum_Asset:polySurface1
+    400610: Weapon_Drum_Asset:polySurface2
+    400612: Weapon_Drum_Asset:polySurface3
+    400614: Weapon_Drum_Asset:polySurface4
+    400616: Weapon_Drum_Asset:polySurface5
+    400618: Weapon_Drum_Asset:transform1
+    400620: Weapon_Drum_Asset:transform2
+    400622: Weapon_Drum_Asset:transform3
+    400624: Weapon_Drum_Asset:transform4
+    400626: Weapon_Drum_Asset:transform5
+    400628: Weapon_Drum_Asset:transform6
+    400630: Weapon_Drum_Asset:Weapon_Drum_Asset
+    400632: Weapon_Drum_Asset__1_3:Drum
+    400634: Weapon_Drum_Asset__1_3:drumstick_1
+    400636: Weapon_Drum_Asset__1_3:drumstick_2
+    2000000: back
+    2000002: left
+    2100000: pasted__pasted__shoes
+    2100002: pasted__pasted__pants
+    2100004: pasted__pasted__sando
+    2100006: pasted__pasted__jacket
+    2100008: pasted__pasted__hair
+    2100010: pasted__pasted__Body
+    2100012: Weapon_Drum_Asset__1_3_drum
+    2100014: Weapon_Drum_Asset__1_3_drumstick
+    2300000: Weapon_Drum_Asset__1_3:Drum
+    2300002: Weapon_Drum_Asset__1_3:drumstick_1
+    2300004: Weapon_Drum_Asset__1_3:drumstick_2
+    3300000: Weapon_Drum_Asset__1_3:Drum
+    3300002: Weapon_Drum_Asset__1_3:drumstick_1
+    3300004: Weapon_Drum_Asset__1_3:drumstick_2
+    4300000: pasted__pasted__Kazu
+    4300002: Weapon_Drum_Asset__1_3:Drum
+    4300004: Weapon_Drum_Asset__1_3:drumstick_1
+    4300006: Weapon_Drum_Asset__1_3:drumstick_2
+    7400000: Battle Stance
+    7400002: isAttack
+    7400004: isDamage
+    7400006: isDefend
+    7400008: isDead
+    7400010: Idle
+    7400012: Walk
+    7400014: Run
+    9500000: //RootNode
+    13700000: pasted__pasted__Kazu
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Weapon_Drum_Asset__1_3_drum
+    second: {fileID: 2100000, guid: ed24b227e0cb64145bf9d6d9d7c136bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Weapon_Drum_Asset__1_3_drumstick
+    second: {fileID: 2100000, guid: ed24b227e0cb64145bf9d6d9d7c136bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__Body
+    second: {fileID: 2100000, guid: a18f8e70af3a9c24db462573e4ced781, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__hair
+    second: {fileID: 2100000, guid: 0ec4ecbcf1c41f141aa3f5cc935f6b1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__jacket
+    second: {fileID: 2100000, guid: cde7e160207085a4ca2a289d3fee5188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__pants
+    second: {fileID: 2100000, guid: 23970fd0e67e892419d73725c0f8158e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__sando
+    second: {fileID: 2100000, guid: a028b6ff55afcbe4fa1fd739f53f2be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__shoes
+    second: {fileID: 2100000, guid: 388a7114f3b14f74da7b49f7b082fabe, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Battle Stance
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: isAttack
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: isDamage
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: isDefend
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 137
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: isDead
+      takeName: Take 001
+      firstFrame: 136
+      lastFrame: 157
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 194
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 158
+      lastFrame: 173
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 174
+      lastFrame: 188
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

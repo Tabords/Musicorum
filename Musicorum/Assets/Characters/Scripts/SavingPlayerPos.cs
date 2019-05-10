@@ -12,7 +12,7 @@ public class SavingPlayerPos : MonoBehaviour
     int defaultnum;
     private void OnDestroy()
     {
-        SetPlayerPos();
+            SetPlayerPos();
     }
     private void Awake()
     {
@@ -21,13 +21,14 @@ public class SavingPlayerPos : MonoBehaviour
     void Start()
     {
         transform.position = new Vector3(PlayerPrefs.GetFloat("posx", -26.15922f), PlayerPrefs.GetFloat("posy", 2.51f), PlayerPrefs.GetFloat("posz", -35.37441f));
+        Debug.Log("CurrentPosition: x, " + transform.position.x + ", y : " + transform.position.y + ", z : " + transform.position.z);
     }
     public void SetPlayerPos()
     {
         PlayerPrefs.SetFloat("posx", transform.position.x);
         PlayerPrefs.SetFloat("posy", transform.position.y); 
         PlayerPrefs.SetFloat("posz", transform.position.z);
-        PlayerPrefs.Save();
+        PlayerPrefs.Save(); 
     }
     public void WhenDied(int die)
     {

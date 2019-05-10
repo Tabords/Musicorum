@@ -2,17 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lerpObject : MonoBehaviour {
-
+public class lerpObject : MonoBehaviour
+{
+    private enum selector { orc, wolf, robot }
+    selector selectors;
     [Header("Positions")]
     public Vector3 startMark, EndMark;
-    Orc OrcAnimation;
+    EnemyManager enemyManager;
     RectTransform rectTransform;
+    Orc OrcAnimation;
+    wolf WolfAnimation;
+    Robot RobotAnimation;
     public bool checker;
     private void Start()
     {
+        enemyManager = FindObjectOfType<EnemyManager>();
         rectTransform = GetComponent<RectTransform>();
-        OrcAnimation = UnityEngine.GameObject.FindObjectOfType<Orc>();
+        OrcAnimation = GameObject.FindObjectOfType<Orc>();
+        selectors = selector.orc;
         checker = true;
     }
     private void FixedUpdate()

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46b74ad3c2f0f0d428a777d9ad8a855a
+guid: d6966de32804bae4fa83fa55023e6972
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -15,91 +15,135 @@ ModelImporter:
     100018: Back_CONT_8
     100020: Back_CONT_9
     100022: back_joint_1
-    100024: back_joint_2
-    100026: back_joint_3
-    100028: back_joint_4
-    100030: back_joint_5
-    100032: back_joint_6
-    100034: back_joint_7
-    100036: back_joint_8
-    100038: back_joint_9
-    100040: Chest
-    100042: Chest_CONT
-    100044: DoubleSidedAxe
-    100046: Front_CONT_1
-    100048: Front_CONT_2
-    100050: Front_CONT_3
-    100052: Front_CONT_4
-    100054: Front_CONT_5
-    100056: Front_CONT_6
-    100058: Front_CONT_7
-    100060: Front_CONT_8
-    100062: Front_CONT_9
-    100064: front_joint_1
-    100066: front_joint_2
-    100068: front_joint_3
-    100070: front_joint_4
-    100072: front_joint_5
-    100074: front_joint_6
-    100076: front_joint_7
-    100078: front_joint_8
-    100080: front_joint_9
-    100082: Global_CONT
-    100084: Head
-    100086: Head_CONT
-    100088: LeftElbow
-    100090: LeftFoot
-    100092: LeftFoot_Ball
-    100094: LeftIndexFinger
-    100096: LeftIndexFinger_1
-    100098: LeftIndexFinger_2
-    100100: LeftKnee
-    100102: LeftMiddleFinger
-    100104: LeftMiddleFinger_1
-    100106: LeftMiddleFinger_2
-    100108: LeftPinkyFinger
-    100110: LeftPinkyFinger_1
-    100112: LeftPinkyFinger_2
-    100114: LeftShoulder
-    100116: LeftShoulder_CONT
-    100118: LeftThigh
-    100120: LeftThumb
-    100122: LeftThumb_1
-    100124: LeftWrist
-    100126: Neck
-    100128: nurbsCircle16
-    100130: //RootNode
-    100132: OrcKing
-    100134: Pelvis
-    100136: Pelvis_CONT
-    100138: RightElbow
-    100140: RightFoot
-    100142: RightFoot_Ball
-    100144: RIghtFoot_Ball_CONT
-    100146: RightFoot_CONT
-    100148: RightIndexFinger
-    100150: RightIndexFinger_1
-    100152: RightIndexFinger_2
-    100154: RightIndexFinger_3
-    100156: RightKnee
-    100158: RIghtKnee_CONT
-    100160: RightMiddleFinger
-    100162: RightMiddleFinger_1
-    100164: RightMiddleFinger_2
-    100166: RightMiddleFinger_3
-    100168: RightPinkyFinger
-    100170: RightPinkyFinger_1
-    100172: RightPinkyFinger_2
-    100174: RightPinkyFinger_3
-    100176: RightShoulder
-    100178: RightShoulder_CONT
-    100180: RightThigh
-    100182: RightThumb
-    100184: RightThumb_1
-    100186: RightWrist
-    100188: Root
-    100190: Root_CONT
-    100192: rootGRP
+    100024: back_joint_10
+    100026: back_joint_2
+    100028: back_joint_3
+    100030: back_joint_4
+    100032: back_joint_5
+    100034: back_joint_6
+    100036: back_joint_7
+    100038: back_joint_8
+    100040: back_joint_9
+    100042: Chest
+    100044: Chest_CONT
+    100046: DoubleSidedAxe
+    100048: Front_CONT_1
+    100050: Front_CONT_2
+    100052: Front_CONT_3
+    100054: Front_CONT_4
+    100056: Front_CONT_5
+    100058: Front_CONT_6
+    100060: Front_CONT_7
+    100062: Front_CONT_8
+    100064: Front_CONT_9
+    100066: front_joint_1
+    100068: front_joint_10
+    100070: front_joint_2
+    100072: front_joint_3
+    100074: front_joint_4
+    100076: front_joint_5
+    100078: front_joint_6
+    100080: front_joint_7
+    100082: front_joint_8
+    100084: front_joint_9
+    100086: Global_CONT
+    100088: Head
+    100090: Head_1
+    100092: Head_CONT
+    100094: ikHandle1
+    100096: ikHandle2
+    100098: LeftElbow
+    100100: LeftElbow_CONT
+    100102: LeftFoot
+    100104: LeftFoot_Ball
+    100106: LeftFoot_Ball_1
+    100108: LeftFoot_Ball_CONT
+    100110: LeftFoot_CONT
+    100112: LeftIndexFinger
+    100114: LeftIndexFinger_1
+    100116: LeftIndexFinger_1_CONT
+    100118: LeftIndexFinger_2
+    100120: LeftIndexFinger_2_CONT
+    100122: LeftIndexFinger_3
+    100124: LeftIndexFinger_CONT
+    100126: LeftKnee
+    100128: LeftKnee_CONT
+    100130: LeftMiddleFinger
+    100132: LeftMiddleFinger_1
+    100134: LeftMiddleFinger_2
+    100136: LeftMiddleFinger_3
+    100138: LeftMiddlerFinger_1_CONT
+    100140: LeftMiddlerFinger_2_CONT
+    100142: LeftMiddlerFinger_CONT
+    100144: LeftPinkyFinger
+    100146: LeftPinkyFinger_1
+    100148: LeftPinkyFinger_1_CONT
+    100150: LeftPinkyFinger_2
+    100152: LeftPinkyFinger_2_CONT
+    100154: LeftPinkyFinger_3
+    100156: LeftPinkyFinger_CONT
+    100158: LeftShoulder
+    100160: LeftShoulder_CONT
+    100162: LeftThigh
+    100164: LeftThumb
+    100166: LeftThumb_1
+    100168: LeftThumb_1_CONT
+    100170: LeftThumb_2
+    100172: LeftThumb_CONT
+    100174: LeftWrist
+    100176: LeftWrist_CONT
+    100178: Neck
+    100180: nurbsCircle16
+    100182: //RootNode
+    100184: OrcKing
+    100186: Pelvis
+    100188: Pelvis_CONT
+    100190: pPlane1
+    100192: pPlane2
+    100194: pPlane3
+    100196: RightElbow
+    100198: RIghtElbow_CONT
+    100200: RightFoot
+    100202: RightFoot_Ball
+    100204: RightFoot_Ball_1
+    100206: RIghtFoot_Ball_CONT
+    100208: RightFoot_CONT
+    100210: RightIndexFinger
+    100212: RightIndexFinger_1
+    100214: RightIndexFinger_1_CONT
+    100216: RightIndexFinger_2
+    100218: RightIndexFinger_2_CONT
+    100220: RightIndexFinger_3
+    100222: RightIndexFinger_CONT
+    100224: RightKnee
+    100226: RIghtKnee_CONT
+    100228: RightMiddleFinger
+    100230: RightMiddleFinger_1
+    100232: RightMiddleFinger_2
+    100234: RightMiddleFinger_3
+    100236: RightMiddlerFinger_1_CONT
+    100238: RightMiddlerFinger_2_CONT
+    100240: RightMiddlerFinger_CONT
+    100242: RightPinkyFinger
+    100244: RightPinkyFinger_1
+    100246: RightPinkyFinger_1_CONT
+    100248: RightPinkyFinger_2
+    100250: RightPinkyFinger_2_CONT
+    100252: RightPinkyFinger_3
+    100254: RightPinkyFinger_CONT
+    100256: RightShoulder
+    100258: RightShoulder_CONT
+    100260: RightThigh
+    100262: RightThumb
+    100264: RightThumb_1
+    100266: RightThumb_1_CONT
+    100268: RightThumb_2
+    100270: RightThumb_CONT
+    100272: RightWrist
+    100274: RightWrist_CONT
+    100276: Root
+    100278: Root_CONT
+    100280: rootGRP
     400000: Abdomen
     400002: Abdomen_CONT
     400004: Back_CONT_1
@@ -112,105 +156,160 @@ ModelImporter:
     400018: Back_CONT_8
     400020: Back_CONT_9
     400022: back_joint_1
-    400024: back_joint_2
-    400026: back_joint_3
-    400028: back_joint_4
-    400030: back_joint_5
-    400032: back_joint_6
-    400034: back_joint_7
-    400036: back_joint_8
-    400038: back_joint_9
-    400040: Chest
-    400042: Chest_CONT
-    400044: DoubleSidedAxe
-    400046: Front_CONT_1
-    400048: Front_CONT_2
-    400050: Front_CONT_3
-    400052: Front_CONT_4
-    400054: Front_CONT_5
-    400056: Front_CONT_6
-    400058: Front_CONT_7
-    400060: Front_CONT_8
-    400062: Front_CONT_9
-    400064: front_joint_1
-    400066: front_joint_2
-    400068: front_joint_3
-    400070: front_joint_4
-    400072: front_joint_5
-    400074: front_joint_6
-    400076: front_joint_7
-    400078: front_joint_8
-    400080: front_joint_9
-    400082: Global_CONT
-    400084: Head
-    400086: Head_CONT
-    400088: LeftElbow
-    400090: LeftFoot
-    400092: LeftFoot_Ball
-    400094: LeftIndexFinger
-    400096: LeftIndexFinger_1
-    400098: LeftIndexFinger_2
-    400100: LeftKnee
-    400102: LeftMiddleFinger
-    400104: LeftMiddleFinger_1
-    400106: LeftMiddleFinger_2
-    400108: LeftPinkyFinger
-    400110: LeftPinkyFinger_1
-    400112: LeftPinkyFinger_2
-    400114: LeftShoulder
-    400116: LeftShoulder_CONT
-    400118: LeftThigh
-    400120: LeftThumb
-    400122: LeftThumb_1
-    400124: LeftWrist
-    400126: Neck
-    400128: nurbsCircle16
-    400130: //RootNode
-    400132: OrcKing
-    400134: Pelvis
-    400136: Pelvis_CONT
-    400138: RightElbow
-    400140: RightFoot
-    400142: RightFoot_Ball
-    400144: RIghtFoot_Ball_CONT
-    400146: RightFoot_CONT
-    400148: RightIndexFinger
-    400150: RightIndexFinger_1
-    400152: RightIndexFinger_2
-    400154: RightIndexFinger_3
-    400156: RightKnee
-    400158: RIghtKnee_CONT
-    400160: RightMiddleFinger
-    400162: RightMiddleFinger_1
-    400164: RightMiddleFinger_2
-    400166: RightMiddleFinger_3
-    400168: RightPinkyFinger
-    400170: RightPinkyFinger_1
-    400172: RightPinkyFinger_2
-    400174: RightPinkyFinger_3
-    400176: RightShoulder
-    400178: RightShoulder_CONT
-    400180: RightThigh
-    400182: RightThumb
-    400184: RightThumb_1
-    400186: RightWrist
-    400188: Root
-    400190: Root_CONT
-    400192: rootGRP
-    2100000: dsa
-    2100002: armor
-    2100004: crown
-    2100006: body
+    400024: back_joint_10
+    400026: back_joint_2
+    400028: back_joint_3
+    400030: back_joint_4
+    400032: back_joint_5
+    400034: back_joint_6
+    400036: back_joint_7
+    400038: back_joint_8
+    400040: back_joint_9
+    400042: Chest
+    400044: Chest_CONT
+    400046: DoubleSidedAxe
+    400048: Front_CONT_1
+    400050: Front_CONT_2
+    400052: Front_CONT_3
+    400054: Front_CONT_4
+    400056: Front_CONT_5
+    400058: Front_CONT_6
+    400060: Front_CONT_7
+    400062: Front_CONT_8
+    400064: Front_CONT_9
+    400066: front_joint_1
+    400068: front_joint_10
+    400070: front_joint_2
+    400072: front_joint_3
+    400074: front_joint_4
+    400076: front_joint_5
+    400078: front_joint_6
+    400080: front_joint_7
+    400082: front_joint_8
+    400084: front_joint_9
+    400086: Global_CONT
+    400088: Head
+    400090: Head_1
+    400092: Head_CONT
+    400094: ikHandle1
+    400096: ikHandle2
+    400098: LeftElbow
+    400100: LeftElbow_CONT
+    400102: LeftFoot
+    400104: LeftFoot_Ball
+    400106: LeftFoot_Ball_1
+    400108: LeftFoot_Ball_CONT
+    400110: LeftFoot_CONT
+    400112: LeftIndexFinger
+    400114: LeftIndexFinger_1
+    400116: LeftIndexFinger_1_CONT
+    400118: LeftIndexFinger_2
+    400120: LeftIndexFinger_2_CONT
+    400122: LeftIndexFinger_3
+    400124: LeftIndexFinger_CONT
+    400126: LeftKnee
+    400128: LeftKnee_CONT
+    400130: LeftMiddleFinger
+    400132: LeftMiddleFinger_1
+    400134: LeftMiddleFinger_2
+    400136: LeftMiddleFinger_3
+    400138: LeftMiddlerFinger_1_CONT
+    400140: LeftMiddlerFinger_2_CONT
+    400142: LeftMiddlerFinger_CONT
+    400144: LeftPinkyFinger
+    400146: LeftPinkyFinger_1
+    400148: LeftPinkyFinger_1_CONT
+    400150: LeftPinkyFinger_2
+    400152: LeftPinkyFinger_2_CONT
+    400154: LeftPinkyFinger_3
+    400156: LeftPinkyFinger_CONT
+    400158: LeftShoulder
+    400160: LeftShoulder_CONT
+    400162: LeftThigh
+    400164: LeftThumb
+    400166: LeftThumb_1
+    400168: LeftThumb_1_CONT
+    400170: LeftThumb_2
+    400172: LeftThumb_CONT
+    400174: LeftWrist
+    400176: LeftWrist_CONT
+    400178: Neck
+    400180: nurbsCircle16
+    400182: //RootNode
+    400184: OrcKing
+    400186: Pelvis
+    400188: Pelvis_CONT
+    400190: pPlane1
+    400192: pPlane2
+    400194: pPlane3
+    400196: RightElbow
+    400198: RIghtElbow_CONT
+    400200: RightFoot
+    400202: RightFoot_Ball
+    400204: RightFoot_Ball_1
+    400206: RIghtFoot_Ball_CONT
+    400208: RightFoot_CONT
+    400210: RightIndexFinger
+    400212: RightIndexFinger_1
+    400214: RightIndexFinger_1_CONT
+    400216: RightIndexFinger_2
+    400218: RightIndexFinger_2_CONT
+    400220: RightIndexFinger_3
+    400222: RightIndexFinger_CONT
+    400224: RightKnee
+    400226: RIghtKnee_CONT
+    400228: RightMiddleFinger
+    400230: RightMiddleFinger_1
+    400232: RightMiddleFinger_2
+    400234: RightMiddleFinger_3
+    400236: RightMiddlerFinger_1_CONT
+    400238: RightMiddlerFinger_2_CONT
+    400240: RightMiddlerFinger_CONT
+    400242: RightPinkyFinger
+    400244: RightPinkyFinger_1
+    400246: RightPinkyFinger_1_CONT
+    400248: RightPinkyFinger_2
+    400250: RightPinkyFinger_2_CONT
+    400252: RightPinkyFinger_3
+    400254: RightPinkyFinger_CONT
+    400256: RightShoulder
+    400258: RightShoulder_CONT
+    400260: RightThigh
+    400262: RightThumb
+    400264: RightThumb_1
+    400266: RightThumb_1_CONT
+    400268: RightThumb_2
+    400270: RightThumb_CONT
+    400272: RightWrist
+    400274: RightWrist_CONT
+    400276: Root
+    400278: Root_CONT
+    400280: rootGRP
+    2100000: front1
+    2100002: dsa
+    2100004: armor
+    2100006: crown
+    2100008: body
     2300000: DoubleSidedAxe
+    2300002: pPlane1
+    2300004: pPlane2
+    2300006: pPlane3
     3300000: DoubleSidedAxe
-    4300000: DoubleSidedAxe
-    4300002: OrcKing
+    3300002: pPlane1
+    3300004: pPlane2
+    3300006: pPlane3
+    4300000: pPlane1
+    4300002: pPlane2
+    4300004: pPlane3
+    4300006: DoubleSidedAxe
+    4300008: OrcKing
     7400000: Idle
-    7400002: Walk
-    7400004: Attack 1
-    7400006: Attack 2
+    7400002: Attack
+    7400004: Weapon Holster
+    7400006: Walk
     7400008: Death
-    7400010: Weapon Holster
+    7400010: Battle Stance
+    7400012: Hit
     9500000: //RootNode
     13700000: OrcKing
   externalObjects:
@@ -234,6 +333,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: dsa
     second: {fileID: 2100000, guid: b248ca4a9331c1e40929919ea7449493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front1
+    second: {fileID: 2100000, guid: 68fa54fcb1e7c884786f89cded16f578, type: 2}
   materials:
     importMaterials: 1
     materialName: 2
@@ -261,94 +365,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: Attack
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 40
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Walk
-      takeName: Take 001
-      firstFrame: 55
-      lastFrame: 74
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Attack 1
-      takeName: Take 001
-      firstFrame: 75
-      lastFrame: 85
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Attack 2
-      takeName: Take 001
-      firstFrame: 86
-      lastFrame: 101
+      firstFrame: 164
+      lastFrame: 190
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -375,8 +395,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: Take 001
-      firstFrame: 105
-      lastFrame: 160
+      firstFrame: 190
+      lastFrame: 247
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -401,10 +421,38 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Weapon Holster
+      name: Battle Stance
       takeName: Take 001
-      firstFrame: 37
-      lastFrame: 54
+      firstFrame: 259
+      lastFrame: 385
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 391
+      lastFrame: 450
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -431,7 +479,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 12
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -452,8 +500,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 0
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

@@ -11,13 +11,15 @@ public class ButtonController : MonoBehaviour {
     public KeyCode keypress;
     bool checker;
     float Gaugelimiter;
+    private float timer;
     private void Start()
     {
         checker = false;
+
     }
     private void Update()
     {
-         if (Input.GetKeyDown(keypress))
+        if (Input.GetKeyDown(keypress))
         {
             whenPressBtn.enabled = true;
             checker = true;

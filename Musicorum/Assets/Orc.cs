@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Orc : MonoBehaviour {
+public class Orc : MonoBehaviour
+{
 
     public delegate void OrcKingDied();
     public event OrcKingDied orcKingDied;
-    [SerializeField]Animator animator;
+    [SerializeField] Animator animator;
     EnemyBehavior enemyBehavior;
     Quest quest;
     public int CHealth;
@@ -14,7 +16,8 @@ public class Orc : MonoBehaviour {
     public int CDamage;
     public int Damage;
     public bool isAttack;
-    AnimatorClipInfo clipInfo;
+    bool IsDamage;
+    bool isDead;
     private void Start()
     {
         enemyBehavior = new EnemyBehavior(MHealth, CHealth, Damage, CDamage);
@@ -22,34 +25,39 @@ public class Orc : MonoBehaviour {
     }
     private void Update()
     {
-        Debug.Log(CHealth);
-        if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Attack 1"))
+        animator.SetBool("isAttack", isAttack);
+        animator.SetBool("isDead", isDead);
+        animator.SetBool("isDamage", IsDamage);
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
         {
-            Debug.Log("Attack Anim is Done");
-            Attack(false);
+            IsDamage = false;
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            isAttack = false;
         }
     }
-
     public void Attack(bool attack)
     {
-        isAttack = attack;
-        Debug.Log("called");
-        animator.SetBool("Attack 1", attack);
+        if (isDead == false)
+        {
+            isAttack = attack;
+        }
     }
-    public void TakeDamage(int Take)
+    public void TakeDamage(int Take) // value that the enemy receives 
     {
         CHealth -= Take;
+
         if (CHealth <= 0)
         {
-            animator.SetBool("Death", true);
-            quest.QuestProgress(1);
-            if (gameObject.tag == "OrcKing")
-            {
-                if (orcKingDied != null)
-                {
-                    orcKingDied();
-                }
-            }
+            isDead = true;
+            quest.QuestProgress(1);         // add progress to the quest +1 
         }
+    }
+    public void Hit(bool isDamage) // calls when player attacks and enemy taking damage
+    {
+        if (isDead == false)
+            IsDamage = isDamage;
     }
 }

@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterStats : MonoBehaviour {
-    Animator animator;
+   public  Animator animator;
    public  CharacterStats_SO characterDefinition;
+    GameManager gm;
     private void Start()
     {
+        gm = GameManager.Instance;
         animator = GetComponent<Animator>();
         if (!characterDefinition.setManually)
         {
@@ -43,7 +45,8 @@ public class CharacterStats : MonoBehaviour {
         if(characterDefinition.currentHealth <= 0)
         {
             Debug.Log("asda");
-            animator.SetBool("Death", true);
+            animator.SetBool("isDead", true);
+            gm.UnloadLevel("RythmUi");
         }
     }
 }

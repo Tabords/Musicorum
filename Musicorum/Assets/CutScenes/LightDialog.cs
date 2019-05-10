@@ -2,59 +2,50 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class LightDialog : MonoBehaviour {
+public class LightDialog : MonoBehaviour
+{
 
     [SerializeField] Text Speaker, Content;
-
+    Quest quest;
     CharSelect charSelect;
+    public Dialog_SO[] Message;
     int incDialog;
+    int CurrentStage;
+    bool DialogChecker;
     // Use this for initialization
-	void Start () {
-        incDialog = 1;
+    void Start()
+    {
+        incDialog = 0;
+        DialogChecker = true;
+        quest = Quest.instance;
         charSelect = UnityEngine.GameObject.FindObjectOfType<CharSelect>();
+        Speaker.text = Message[quest.currentQuest].Dialog.messenger[incDialog];
+        Content.text = Message[quest.currentQuest].Dialog.message[incDialog];
     }
-
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Dialog();
+            if(DialogChecker)
+            {
+                incDialog++;
+                Dialog();
+            }
         }
-	}
-
+    }
     void Dialog()
     {
-
-        if (incDialog == 1)
+        Debug.Log(incDialog);
+        if (incDialog < Message[quest.currentQuest].Dialog.message.Length)
         {
-            if (charSelect.Charenum == choices.Kazu)
-            {
-                Speaker.text = "Kazu";
-            }
-            if (charSelect.Charenum == choices.sophia)
-            {
-                Speaker.text = "Sophia";
-            }
-            Content.text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s";
+            Speaker.text = Message[quest.currentQuest].Dialog.messenger[incDialog];
+            Content.text = Message[quest.currentQuest].Dialog.message[incDialog];
         }
-        if (incDialog == 2)
+        else
         {
-            Speaker.text = "Light";
-            Content.text = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters";
+            DialogChecker = false;
+            Debug.Log(DialogChecker);
         }
-
-        if (incDialog == 3)
-        {
-            if (charSelect.Charenum == choices.Kazu)
-            {
-                Speaker.text = "Kazu";
-            }
-            if (charSelect.Charenum == choices.sophia)
-            {
-                Speaker.text = "Sophia";
-            }
-            Content.text = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour";
-        }
-        incDialog++;
     }
 }

@@ -5,8 +5,7 @@ using UnityEngine;
 public class CrystalScripts : MonoBehaviour {
 
     Quest quest;
-
-    public int defaultposition;
+    [SerializeField]Animator animator;
     private void Start()
     {
         quest = Quest.instance;
@@ -15,6 +14,7 @@ public class CrystalScripts : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            animator.SetBool("isDead", true);
             quest.MainQuestProgress(1);
             Destroy(gameObject, 2);
         }

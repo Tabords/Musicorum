@@ -155,6 +155,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speaker: {fileID: 1324198620}
   Content: {fileID: 444391758}
+  Message:
+  - {fileID: 11400000, guid: dacd6d76e3f39b341b2cee6ac89f36d3, type: 2}
+  - {fileID: 11400000, guid: 1ed9974a1139d4945b7ee30733cd6111, type: 2}
+  - {fileID: 11400000, guid: 51a96aeaafd52ca4dac29bec48cf45f5, type: 2}
 --- !u!1 &194646862
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,8 +320,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+  m_Text: 
 --- !u!222 &444391759
 CanvasRenderer:
   m_ObjectHideFlags: 0

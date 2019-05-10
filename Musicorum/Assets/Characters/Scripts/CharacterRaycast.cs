@@ -2,102 +2,61 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterRaycast : MonoBehaviour {
-    [SerializeField]Animator animator;
-
-    CharacterStats character;
-    public bool isDeath, isAttack;
+public class CharacterRaycast : MonoBehaviour
+{
+    [SerializeField] Animator animator;
+    public static CharacterRaycast instance;
+    RaycastHit hit;
+   public CharacterStats character;
+    public bool isDeath, isAttack, isHit;
+    CombatManager cm;
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+            Destroy(gameObject);
+    }
     private void Start()
     {
         character = GetComponent<CharacterStats>();
+        cm = GameObject.FindObjectOfType<CombatManager>();
     }
     private void FixedUpdate()
     {
-        animator.SetBool("Attack 1", isAttack);
-        animator.SetBool("Death", isDeath);
-        RaycastHit hit;
+        animator.SetBool("isAttack", isAttack);
+        animator.SetBool("isDead", isDeath);
+        animator.SetBool("isDamage", isHit);
         if (Physics.Raycast(transform.position, transform.forward, out hit, 50))
         {
-            if (hit.collider.tag == "OrcDagger")
+            if (hit.collider.tag == "OrcDagger" || hit.collider.tag == "OrcSpear" || hit.collider.tag == "OrcKing"|| hit.collider.tag == "WereWolf"|| hit.collider.tag == "BlackWolf" || hit.collider.tag == "WhiteWolf" || hit.collider.tag == "MiniBot" || hit.collider.tag == "MegaBot")
             {
                 Orc orc = hit.collider.GetComponent<Orc>();
-                Debug.Log("Hits Orc Dagger");
-                if(isAttack == true) {
-                    orc.SendMessage("TakeDamage", character.characterDefinition.currentDamage);
-                    if (orc.isAttack == true)
+                if (orc.isAttack == true) // player action
+                {
+                    if (isDeath == false)
                     {
+                        isHit = true;
+                        
+                        animator.SetBool("isDamage", isHit);
                         character.characterDefinition.TakeDamage(orc.CDamage);
+                        orc.isAttack = false;
                     }
-                    isAttack = false;
-                }
-            }
-            if (hit.collider.tag == "OrcSpear")
-            {
-                Orc orc = hit.collider.GetComponent<Orc>();
-                if (isAttack == true)
-                {
-                    orc.SendMessage("TakeDamage", character.characterDefinition.currentDamage);
-                    if (orc.isAttack== true)
+                    if(isDeath)
                     {
-                        character.characterDefinition.TakeDamage(orc.CDamage);
+                        cm.PanelToDisable[3].SetActive(false);
                     }
-                    isAttack = false;
                 }
-            }
-            if (hit.collider.tag == "OrcKing")
-            {
-                Orc orc = hit.collider.GetComponent<Orc>();
                 if (isAttack == true)
-                {
-                    orc.SendMessage("TakeDamage", character.characterDefinition.currentDamage);
-                    if (orc.isAttack == true)
-                    {
-                        character.characterDefinition.TakeDamage(orc.CDamage);
-                    }
+                { // enemy action
+                    orc.TakeDamage(character.characterDefinition.currentDamage);
+                    orc.Hit(true);
                     isAttack = false;
                 }
-            }
-            if (hit.collider.tag == "WereWolf")
-            {
-                wolf wolf = hit.collider.GetComponent<wolf>();
-                if (isAttack == true)
-                {
-                    Debug.Log("Hits WereWolf");
-                    wolf.SendMessage("TakeDamage", character.characterDefinition.currentDamage);
-                    if (wolf.isAttack == true)
-                    {
-                        character.characterDefinition.TakeDamage(wolf.CDamage);
-                    }
-                    isAttack = false;
-                }
-            }
-            if (hit.collider.tag == "BlackWolf")
-            {
-                if (isAttack == true)
-                {
-                    Debug.Log("Hits Orc King");
-                    wolf wolf = hit.collider.GetComponent<wolf>();
-                    wolf.SendMessage("TakeDamage", character.characterDefinition.currentDamage);
-                    if (wolf.isAttack == true)
-                    {
-                        character.characterDefinition.TakeDamage(wolf.CDamage);
-                    }
-                    isAttack = false;
-                }
-            }
-            if (hit.collider.tag == "WhiteWolf")
-            {
-                wolf wolf = hit.collider.GetComponent<wolf>();
-                if (isAttack == true)
-                {
-                    Debug.Log("HIts Whitewolf");
-                    wolf.SendMessage("TakeDamage", character.characterDefinition.currentDamage);
-                    if (wolf.isAttack == true)
-                    {
-                        character.characterDefinition.TakeDamage(wolf.CDamage);
-                    }
-                    isAttack = false;
-                }
+                isHit = false;
+                isAttack = false;
             }
         }
     }

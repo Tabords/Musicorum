@@ -11,6 +11,8 @@ public class wolf : MonoBehaviour {
     public int CDamage;
     public int Damage;
     public bool isAttack;
+    bool IsDamage;
+    bool isDead;
     // Use this for initialization
     void Start () {
         enemyBehavior = new EnemyBehavior(MHealth, CHealth, Damage, CDamage);
@@ -18,31 +20,41 @@ public class wolf : MonoBehaviour {
     }
     private void Update()
     {
-        Debug.Log(CHealth);
-        if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Attack 1"))
+        animator.SetBool("isAttack", isAttack);
+        animator.SetBool("isDead", isDead);
+        animator.SetBool("isDamage", IsDamage);
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
         {
-            Debug.Log("Attack Anim is Done");
-            Attack(false);
+            IsDamage = false;
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            isAttack = false;
         }
     }
     // Update is called once per frame
 
     public void Attack(bool attack)
     {
-        Debug.Log("called");
-        animator.SetBool("isAttack", attack);
+        if (isDead == false)
+        {
+            isAttack = attack;
+        }
     }
-    public void TakeDamage(int Take)
+    public void TakeDamage(int Take) // value that the enemy receives 
     {
         CHealth -= Take;
+
         if (CHealth <= 0)
         {
-            animator.SetBool("isDead", true);
-            quest.QuestProgress(1);
-            if (gameObject.tag == "WereWolf")
-            {
-
-            }
+            isDead = true;
+            quest.QuestProgress(1);         // add progress to the quest +1 
         }
+    }
+    public void Hit(bool isDamage) // calls when player attacks and enemy taking damage
+    {
+        if (isDead == false)
+            IsDamage = isDamage;
     }
 }

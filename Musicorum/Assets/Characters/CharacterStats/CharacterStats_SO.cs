@@ -69,6 +69,7 @@ public class CharacterStats_SO : ScriptableObject
         }
        
     }
+  
     private void Death()
     {
         //death animation
@@ -92,8 +93,5 @@ public class CharacterStats_SO : ScriptableObject
     public void saveCharacterDAta()
     {
         saveDataOnClose = true;
-
     }
-
-
 }

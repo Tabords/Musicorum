@@ -11,7 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74e50a1d787aaad4b80c6b39e057af1c, type: 3}
   m_Name: Stage1Quest
   m_EditorClassIdentifier: 
-  Description: Kill 3 Goblin and Collect items
+  Description: 'Kill 3 Goblin '
   QuestType: killQuest
   required: 3
-  currentProgress: 0

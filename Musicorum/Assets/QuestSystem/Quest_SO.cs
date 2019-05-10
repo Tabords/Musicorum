@@ -11,11 +11,6 @@ public class Quest_SO : ScriptableObject {
     [Header("Quest Description")]
     public string Description;
     public string QuestType;
-
     [Header("Required to complete the Quest")]
     public int required;
-
-    [Header("Current Progress of The Quest")]
-    public int currentProgress;
-
 }

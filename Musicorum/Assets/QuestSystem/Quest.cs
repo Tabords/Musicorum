@@ -17,7 +17,6 @@ public class Quest : MonoBehaviour {
     public  int MainProgress;
     public static Quest instance;
     public int currentQuest;
-
     #region Singleton
     private void Awake()
     {
@@ -60,10 +59,18 @@ public class Quest : MonoBehaviour {
     public void QuestProgress(int progress)
     {
         CurrentProgress += progress;
+        if (progress >= ListQuest[currentQuest].required)
+        {
+            CurrentProgress = 0;
+        }
     }
     public void MainQuestProgress(int progress)
     {
         MainProgress += progress;
+    }
+    public void ResetCurrentProgress()
+    {
+        CurrentProgress = 0;
     }
   
 }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class QuestShow : MonoBehaviour {
-    QuestRank questRank;
     [SerializeField] Text SideQuestDescription, SideQuestRequired, MainQuestDescription,MainQuestRequired;
     Quest quest;
     GameManager gm;
@@ -16,7 +15,6 @@ public class QuestShow : MonoBehaviour {
     {
         SideQuestDescription.text = quest.ListQuest[quest.currentQuest].Description;
         SideQuestRequired.text = quest.CurrentProgress.ToString() + "/" + quest.ListQuest[quest.currentQuest].required.ToString();
-
         MainQuestDescription.text = quest.MainQuest.Description;
         MainQuestRequired.text = quest.MainProgress.ToString() + "/" + quest.MainQuest.required.ToString();
         if (Input.GetKeyDown(KeyCode.O)&&gm.isQuestLoaded == true)
